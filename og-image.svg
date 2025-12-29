@@ -1,0 +1,50 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#111111"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22d3ee"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <!-- Grid pattern matching website -->
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+    <!-- Embed fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Syne:wght@400;500;600;700&amp;display=swap');
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Grid overlay -->
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Decorative orb (matching website hero) -->
+  <circle cx="1050" cy="150" r="250" fill="#22d3ee" opacity="0.06"/>
+  <circle cx="150" cy="550" r="180" fill="#22d3ee" opacity="0.03"/>
+  
+  <!-- Cyan accent line -->
+  <rect x="100" y="150" width="80" height="4" rx="2" fill="url(#accentGradient)"/>
+  
+  <!-- Logo "tacttus" - Syne font -->
+  <text x="100" y="210" font-family="'Syne', system-ui, sans-serif" font-size="36" font-weight="600" fill="#ffffff" letter-spacing="-0.02em">tacttus</text>
+  
+  <!-- Main headline - Instrument Serif font -->
+  <text x="100" y="340" font-family="'Instrument Serif', Georgia, serif" font-size="64" font-weight="400" fill="#ffffff" font-style="italic">Build Growth</text>
+  
+  <text x="100" y="420" font-family="'Instrument Serif', Georgia, serif" font-size="64" font-weight="400" font-style="italic">
+    <tspan fill="#22d3ee">Systems</tspan>
+    <tspan fill="#ffffff"> That Scale</tspan>
+  </text>
+  
+  <!-- Subtitle - Syne font -->
+  <text x="100" y="500" font-family="'Syne', system-ui, sans-serif" font-size="24" fill="#a1a1aa" font-weight="400">Growth consulting for early-stage companies.</text>
+  
+  <!-- Bottom accent line -->
+  <rect x="100" y="535" width="60" height="3" rx="1.5" fill="url(#accentGradient)"/>
+</svg>

@@ -1,0 +1,12 @@
+# Robots.txt for tacttus.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://tacttus.com/sitemap.xml
+
+# Disallow admin or private areas (if any in future)
+# Disallow: /admin/
+
+
