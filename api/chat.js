@@ -61,7 +61,10 @@ export default async function handler(req, res) {
         
         // Send conversation data to n8n webhook (non-blocking)
         const n8nWebhookUrl = process.env.N8N_WEBHOOK_URL;
+        console.log('N8N_WEBHOOK_URL configured:', !!n8nWebhookUrl);
+        
         if (n8nWebhookUrl) {
+            console.log('Sending to n8n webhook...');
             // Fire and forget - don't await to keep response fast
             fetch(n8nWebhookUrl, {
                 method: 'POST',
@@ -75,9 +78,13 @@ export default async function handler(req, res) {
                     answer: assistantMessage,
                     source: 'tacttus-website',
                 }),
-            }).catch(err => {
+            })
+            .then(res => console.log('n8n webhook response:', res.status))
+            .catch(err => {
                 console.error('Error sending to n8n webhook:', err.message);
             });
+        } else {
+            console.log('N8N_WEBHOOK_URL not set, skipping webhook');
         }
         
         return res.status(200).json({
