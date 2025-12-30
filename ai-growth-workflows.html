@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W6N5RHGK');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>AI Growth Workflows | Automation Examples | Tacttus</title>
+    <meta name="description" content="Explore real AI automation workflows built for growth teams. Lead qualification, content generation, customer onboarding, and more.">
+    <meta name="keywords" content="n8n workflows, AI automation, growth automation, lead qualification, marketing automation">
+    <meta name="author" content="Matias Honorato">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://tacttus.com/ai-growth-workflows">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tacttus.com/ai-growth-workflows">
+    <meta property="og:title" content="AI Growth Workflows | Automation Examples">
+    <meta property="og:description" content="Explore real AI automation workflows built for growth teams.">
+    <meta property="og:image" content="https://tacttus.com/og-image.png">
+    <meta property="og:site_name" content="Tacttus">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        /* Workflows Page Specific Styles */
+        .workflows-hero {
+            padding: calc(var(--space-3xl) + 80px) 0 var(--space-2xl);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .workflows-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(34, 197, 94, 0.15), transparent),
+                radial-gradient(ellipse 60% 40% at 80% 60%, rgba(56, 189, 248, 0.08), transparent);
+            pointer-events: none;
+        }
+
+        .workflows-hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .workflows-hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 400;
+            line-height: 1.1;
+            margin-bottom: var(--space-md);
+        }
+
+        .workflows-hero h1 .accent {
+            font-style: italic;
+            background: linear-gradient(135deg, var(--color-accent) 0%, #38bdf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .workflows-hero p {
+            font-size: 1.25rem;
+            color: var(--color-text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Bento Grid */
+        .bento-section {
+            padding: var(--space-xl) 0 var(--space-3xl);
+        }
+
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-auto-rows: minmax(200px, auto);
+            gap: var(--space-md);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg);
+        }
+
+        .bento-card {
+            background: var(--color-bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            position: relative;
+            overflow: hidden;
+            transition: all var(--transition-base);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bento-card:hover {
+            border-color: rgba(34, 197, 94, 0.3);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .bento-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(34, 197, 94, 0.5), transparent);
+            opacity: 0;
+            transition: opacity var(--transition-base);
+        }
+
+        .bento-card:hover::before {
+            opacity: 1;
+        }
+
+        /* Card Sizes */
+        .bento-card.large {
+            grid-column: span 8;
+            grid-row: span 2;
+        }
+
+        .bento-card.medium {
+            grid-column: span 4;
+            grid-row: span 2;
+        }
+
+        .bento-card.wide {
+            grid-column: span 6;
+            grid-row: span 1;
+        }
+
+        .bento-card.small {
+            grid-column: span 4;
+            grid-row: span 1;
+        }
+
+        @media (max-width: 900px) {
+            .bento-card.large,
+            .bento-card.medium,
+            .bento-card.wide,
+            .bento-card.small {
+                grid-column: span 12;
+                grid-row: span 1;
+            }
+        }
+
+        /* Card Content */
+        .bento-category {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--color-accent);
+            margin-bottom: var(--space-sm);
+        }
+
+        .bento-category svg {
+            width: 14px;
+            height: 14px;
+        }
+
+        .bento-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: var(--space-xs);
+            line-height: 1.2;
+        }
+
+        .bento-card.large .bento-title {
+            font-size: 2rem;
+        }
+
+        .bento-description {
+            font-size: 0.95rem;
+            color: var(--color-text-secondary);
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+
+        /* Metrics Badge */
+        .bento-metrics {
+            display: flex;
+            gap: var(--space-md);
+            margin-top: var(--space-md);
+            padding-top: var(--space-md);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .metric {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .metric-value {
+            font-family: var(--font-body);
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--color-accent);
+        }
+
+        .metric-label {
+            font-size: 0.75rem;
+            color: var(--color-text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        /* Tool Stack */
+        .tool-stack {
+            display: flex;
+            gap: 8px;
+            margin-top: var(--space-md);
+            flex-wrap: wrap;
+        }
+
+        .tool-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 100px;
+            font-size: 0.75rem;
+            color: var(--color-text-secondary);
+        }
+
+        .tool-badge svg {
+            width: 12px;
+            height: 12px;
+        }
+
+        /* Workflow Preview */
+        .workflow-preview {
+            flex-grow: 1;
+            margin-top: var(--space-md);
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 150px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .workflow-preview-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--space-xs);
+            color: var(--color-text-muted);
+        }
+
+        .workflow-preview-placeholder svg {
+            width: 48px;
+            height: 48px;
+            opacity: 0.5;
+        }
+
+        .workflow-preview-placeholder span {
+            font-size: 0.875rem;
+        }
+
+        /* Animated nodes background for preview */
+        .nodes-animation {
+            position: absolute;
+            inset: 0;
+            opacity: 0.3;
+        }
+
+        .node {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: rgba(34, 197, 94, 0.2);
+            border: 1px solid rgba(34, 197, 94, 0.4);
+            border-radius: 8px;
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        .node:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
+        .node:nth-child(2) { top: 40%; left: 30%; animation-delay: 0.5s; }
+        .node:nth-child(3) { top: 30%; left: 55%; animation-delay: 1s; }
+        .node:nth-child(4) { top: 50%; left: 75%; animation-delay: 1.5s; }
+        .node:nth-child(5) { top: 70%; left: 50%; animation-delay: 2s; }
+
+        .connection {
+            position: absolute;
+            height: 2px;
+            background: linear-gradient(90deg, rgba(34, 197, 94, 0.5), rgba(34, 197, 94, 0.1));
+            transform-origin: left center;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 1; }
+        }
+
+        /* CTA Section */
+        .workflows-cta {
+            padding: var(--space-2xl) 0;
+            text-align: center;
+        }
+
+        .workflows-cta-content {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg);
+        }
+
+        .workflows-cta h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-weight: 400;
+            margin-bottom: var(--space-md);
+        }
+
+        .workflows-cta p {
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-lg);
+        }
+
+        /* Coming Soon Overlay */
+        .coming-soon-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(17, 17, 17, 0.85);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity var(--transition-base);
+            border-radius: var(--radius-lg);
+        }
+
+        .bento-card:hover .coming-soon-overlay {
+            opacity: 1;
+        }
+
+        .coming-soon-text {
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--color-accent);
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6N5RHGK"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="logo">tacttus</a>
+            <div class="nav-links">
+                <a href="/#services">Services</a>
+                <a href="/#about">About</a>
+                <a href="/ai-growth-workflows" class="active">Workflows</a>
+                <a href="/contact" class="nav-cta">Let's Talk</a>
+            </div>
+            <button class="mobile-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="workflows-hero">
+        <div class="container">
+            <div class="workflows-hero-content">
+                <span class="section-label">AI Growth Workflows</span>
+                <h1>Automation That <span class="accent">Actually&nbsp;Works</span></h1>
+                <p>Real workflows I've built for growth teams. From lead qualification to content generation—systems that save hours and scale&nbsp;operations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bento Grid Section -->
+    <section class="bento-section">
+        <div class="bento-grid">
+            
+            <!-- Large Card - Lead Qualification -->
+            <div class="bento-card large">
+                <div class="bento-category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                    Lead Generation
+                </div>
+                <h3 class="bento-title">Intelligent Lead Qualification&nbsp;Engine</h3>
+                <p class="bento-description">Automatically enrich, score, and route inbound leads. Integrates form submissions with CRM, triggers personalized Slack alerts, and initiates email sequences based on lead&nbsp;quality.</p>
+                
+                <div class="workflow-preview">
+                    <div class="nodes-animation">
+                        <div class="node"></div>
+                        <div class="node"></div>
+                        <div class="node"></div>
+                        <div class="node"></div>
+                        <div class="node"></div>
+                    </div>
+                    <div class="workflow-preview-placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18"/>
+                            <path d="M9 21V9"/>
+                        </svg>
+                        <span>Workflow preview</span>
+                    </div>
+                </div>
+
+                <div class="tool-stack">
+                    <span class="tool-badge">n8n</span>
+                    <span class="tool-badge">OpenAI</span>
+                    <span class="tool-badge">HubSpot</span>
+                    <span class="tool-badge">Slack</span>
+                    <span class="tool-badge">Clearbit</span>
+                </div>
+
+                <div class="bento-metrics">
+                    <div class="metric">
+                        <span class="metric-value">5 min</span>
+                        <span class="metric-label">Response time</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">90%</span>
+                        <span class="metric-label">Manual work reduced</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">3x</span>
+                        <span class="metric-label">Qualified leads</span>
+                    </div>
+                </div>
+
+                <div class="coming-soon-overlay">
+                    <span class="coming-soon-text">Coming Soon</span>
+                </div>
+            </div>
+
+            <!-- Medium Card - Content Generation -->
+            <div class="bento-card medium">
+                <div class="bento-category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 20h9"/>
+                        <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                    </svg>
+                    Content
+                </div>
+                <h3 class="bento-title">AI Content Brief&nbsp;Generator</h3>
+                <p class="bento-description">Transforms keyword research into comprehensive content briefs with competitor analysis, suggested headings, and SEO&nbsp;recommendations.</p>
+
+                <div class="tool-stack">
+                    <span class="tool-badge">n8n</span>
+                    <span class="tool-badge">Claude</span>
+                    <span class="tool-badge">Ahrefs API</span>
+                    <span class="tool-badge">Notion</span>
+                </div>
+
+                <div class="bento-metrics">
+                    <div class="metric">
+                        <span class="metric-value">2 hrs</span>
+                        <span class="metric-label">Saved per brief</span>
+                    </div>
+                </div>
+
+                <div class="coming-soon-overlay">
+                    <span class="coming-soon-text">Coming Soon</span>
+                </div>
+            </div>
+
+            <!-- Wide Card - Customer Onboarding -->
+            <div class="bento-card wide">
+                <div class="bento-category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    Onboarding
+                </div>
+                <h3 class="bento-title">Personalized Onboarding&nbsp;Flow</h3>
+                <p class="bento-description">Triggers welcome sequences based on user segment, tracks activation milestones, and alerts CS team for high-value&nbsp;accounts.</p>
+
+                <div class="tool-stack">
+                    <span class="tool-badge">n8n</span>
+                    <span class="tool-badge">Segment</span>
+                    <span class="tool-badge">Customer.io</span>
+                    <span class="tool-badge">Slack</span>
+                </div>
+
+                <div class="coming-soon-overlay">
+                    <span class="coming-soon-text">Coming Soon</span>
+                </div>
+            </div>
+
+            <!-- Wide Card - Reporting -->
+            <div class="bento-card wide">
+                <div class="bento-category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21.21 15.89A10 10 0 1 1 8 2.83"/>
+                        <path d="M22 12A10 10 0 0 0 12 2v10z"/>
+                    </svg>
+                    Analytics
+                </div>
+                <h3 class="bento-title">Weekly Growth&nbsp;Digest</h3>
+                <p class="bento-description">Aggregates metrics from multiple sources, generates AI-powered insights, and delivers a formatted report to Slack every&nbsp;Monday.</p>
+
+                <div class="tool-stack">
+                    <span class="tool-badge">n8n</span>
+                    <span class="tool-badge">BigQuery</span>
+                    <span class="tool-badge">OpenAI</span>
+                    <span class="tool-badge">Slack</span>
+                </div>
+
+                <div class="coming-soon-overlay">
+                    <span class="coming-soon-text">Coming Soon</span>
+                </div>
+            </div>
+
+            <!-- Small Cards Row -->
+            <div class="bento-card small">
+                <div class="bento-category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                    </svg>
+                    Operations
+                </div>
+                <h3 class="bento-title">Meeting Notes&nbsp;Processor</h3>
+                <p class="bento-description">Transcribes calls, extracts action items, and syncs to your project management&nbsp;tool.</p>
+
+                <div class="coming-soon-overlay">
+                    <span class="coming-soon-text">Coming Soon</span>
+                </div>
+            </div>
+
+            <div class="bento-card small">
+                <div class="bento-category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="2" y1="12" x2="22" y2="12"/>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                    Enrichment
+                </div>
+                <h3 class="bento-title">Company Data&nbsp;Enrichment</h3>
+                <p class="bento-description">Auto-enriches company records with firmographic data from multiple&nbsp;sources.</p>
+
+                <div class="coming-soon-overlay">
+                    <span class="coming-soon-text">Coming Soon</span>
+                </div>
+            </div>
+
+            <div class="bento-card small">
+                <div class="bento-category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    Email
+                </div>
+                <h3 class="bento-title">Smart Email&nbsp;Responder</h3>
+                <p class="bento-description">Drafts contextual replies using AI based on email content and CRM&nbsp;history.</p>
+
+                <div class="coming-soon-overlay">
+                    <span class="coming-soon-text">Coming Soon</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="workflows-cta">
+        <div class="workflows-cta-content">
+            <h2>Need a Custom&nbsp;Workflow?</h2>
+            <p>Every growth team has unique challenges. Let's discuss how to automate your specific&nbsp;bottlenecks.</p>
+            <a href="/contact" class="btn btn-primary btn-large">
+                <span>Let's Build Together</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="/" class="footer-logo">tacttus</a>
+                <p class="footer-tagline">Growth Systems for Early-Stage&nbsp;Startups</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/mhonorato/" target="_blank">LinkedIn</a>
+                    <a href="https://x.com/Mati_Honorato" target="_blank">X</a>
+                    <a href="https://t.me/matiashonorato" target="_blank">Telegram</a>
+                </div>
+                <p class="footer-copyright">© 2025 Tacttus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+</body>
+</html>
+
