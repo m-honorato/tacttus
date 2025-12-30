@@ -1,6 +1,13 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/questions",
+      "destination": "/ask-me-anything",
+      "permanent": true
+    }
+  ]
 }
 
 

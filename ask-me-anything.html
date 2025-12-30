@@ -36,11 +36,17 @@
     <link rel="stylesheet" href="styles.css">
     
     <style>
+        /* Prevent horizontal scroll */
+        html, body {
+            overflow-x: hidden;
+        }
+
         /* Chat Page - Two Column Layout */
         .chat-page {
             min-height: 100vh;
             padding-top: 80px;
             display: flex;
+            overflow-x: hidden;
         }
 
         .chat-layout {
@@ -50,49 +56,6 @@
             max-width: 1400px;
             margin: 0 auto;
             min-height: calc(100vh - 80px);
-        }
-
-        @media (max-width: 900px) {
-            .chat-page {
-                padding-top: 60px;
-            }
-            .chat-layout {
-                grid-template-columns: 1fr;
-            }
-            .chat-sidebar {
-                display: none;
-            }
-            .chat-main {
-                border-left: none !important;
-                height: calc(100vh - 60px);
-                height: calc(100dvh - 60px);
-            }
-            .mobile-header {
-                display: flex !important;
-            }
-            .chat-messages {
-                padding: var(--space-md);
-            }
-            .chat-input-container {
-                padding: var(--space-sm) var(--space-md) var(--space-md);
-            }
-            .suggested-list {
-                gap: 6px;
-            }
-            .suggested-btn {
-                padding: 6px 12px;
-                font-size: 0.75rem;
-            }
-            .empty-state h3 {
-                font-size: 1.25rem;
-            }
-            .empty-state p {
-                font-size: 0.9rem;
-            }
-            .empty-icon {
-                width: 60px;
-                height: 60px;
-            }
         }
 
         /* Left Sidebar */
@@ -482,6 +445,130 @@
             text-decoration: underline;
             text-underline-offset: 2px;
         }
+
+        /* Mobile Styles - Must be at end to override */
+        @media (max-width: 900px) {
+            .chat-page {
+                padding-top: 60px;
+            }
+            .chat-layout {
+                grid-template-columns: 1fr;
+            }
+            .chat-sidebar {
+                display: none !important;
+            }
+            .chat-main {
+                border-left: none !important;
+                height: calc(100vh - 60px);
+                height: calc(100dvh - 60px);
+                width: 100%;
+                max-width: 100vw;
+                overflow-x: hidden;
+            }
+            .mobile-header {
+                display: flex !important;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: var(--space-md) var(--space-md);
+                gap: var(--space-xs);
+                border-bottom: none;
+                background: transparent;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .mobile-header .avatar-image {
+                width: 80px;
+                height: 80px;
+                border-width: 3px;
+            }
+            .mobile-header-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 4px;
+            }
+            .mobile-header-text h2 {
+                font-size: 1.5rem;
+            }
+            .mobile-header-text p {
+                font-size: 1rem;
+                color: var(--color-text-secondary);
+                line-height: 1.5;
+            }
+            .mobile-header .powered-by-mobile {
+                font-size: 0.7rem;
+                color: var(--color-text-muted);
+                margin-top: 4px;
+            }
+            .mobile-header .powered-by-mobile a {
+                color: var(--color-accent);
+                text-decoration: none;
+            }
+            .mobile-header .ai-badge-mobile {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                padding: 6px 12px;
+                background: rgba(34, 197, 94, 0.1);
+                border: 1px solid rgba(34, 197, 94, 0.2);
+                border-radius: 100px;
+                font-size: 0.7rem;
+                font-weight: 600;
+                color: var(--color-accent);
+                margin-top: var(--space-xs);
+            }
+            .mobile-header .ai-badge-mobile svg {
+                width: 12px;
+                height: 12px;
+            }
+            .chat-messages {
+                padding: var(--space-sm) var(--space-md);
+                flex: 1;
+            }
+            .empty-state {
+                padding: var(--space-md);
+            }
+            .empty-state h3 {
+                display: none;
+            }
+            .empty-state p {
+                font-size: 0.85rem;
+            }
+            .empty-icon {
+                width: 50px;
+                height: 50px;
+                margin-bottom: var(--space-sm);
+            }
+            .chat-input-container {
+                padding: var(--space-sm) var(--space-md) var(--space-md);
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .suggested-questions {
+                margin-bottom: var(--space-sm);
+            }
+            .suggested-label {
+                text-align: center;
+            }
+            .suggested-list {
+                justify-content: center;
+                gap: 6px;
+                flex-wrap: wrap;
+                padding: 0 var(--space-sm);
+            }
+            .suggested-btn {
+                padding: 8px 14px;
+                font-size: 0.75rem;
+                max-width: calc(50% - 6px);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .input-hint {
+                font-size: 0.65rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -498,6 +585,7 @@
                 <a href="/#services">Services</a>
                 <a href="/#about">About</a>
                 <a href="/ai-growth-workflows">Workflows</a>
+                <a href="/ask-me-anything" class="active">Ask Me Anything</a>
                 <a href="/contact" class="nav-cta">Let's Talk</a>
             </div>
             <button class="mobile-menu" aria-label="Menu">
@@ -542,8 +630,15 @@
                     <img src="https://i.imgur.com/EufynCX.jpeg" alt="Matias" class="avatar-image">
                     <div class="mobile-header-text">
                         <h2>Ask Matias</h2>
-                        <p>Powered by <a href="https://superme.ai/invite/matiashonorato" target="_blank">SuperMe AI</a></p>
+                        <p>Get instant answers about growth strategy and scaling startups</p>
                     </div>
+                    <span class="ai-badge-mobile">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/>
+                        </svg>
+                        AI-Powered
+                    </span>
+                    <p class="powered-by-mobile">Powered by <a href="https://superme.ai/invite/matiashonorato" target="_blank">SuperMe AI</a></p>
                 </div>
 
                 <!-- Messages -->
@@ -563,9 +658,9 @@
                     <div class="suggested-questions" id="suggestedQuestions">
                         <div class="suggested-label">Try asking</div>
                         <div class="suggested-list">
-                            <button class="suggested-btn" data-question="What's your approach to growth strategy?">Growth strategy approach</button>
-                            <button class="suggested-btn" data-question="How do you build a growth team from scratch?">Building growth teams</button>
-                            <button class="suggested-btn" data-question="How should I prioritize growth experiments?">Prioritizing experiments</button>
+                            <button class="suggested-btn" data-question="What is a growth team's core thesis?">Growth core thesis</button>
+                            <button class="suggested-btn" data-question="How do you build a high-performing growth team?">Building growth teams</button>
+                            <button class="suggested-btn" data-question="What growth frameworks do you recommend?">Growth frameworks</button>
                         </div>
                     </div>
                     <div class="chat-input-wrapper">
