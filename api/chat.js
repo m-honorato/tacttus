@@ -59,30 +59,31 @@ export default async function handler(req, res) {
         // Extract the response text
         const assistantMessage = data.choices?.[0]?.message?.content || 'Sorry, I could not generate a response.';
         
-        // Send conversation data to n8n webhook (non-blocking)
+        // Send conversation data to n8n webhook
+        // Must await in serverless - otherwise function terminates before request completes
         const n8nWebhookUrl = process.env.N8N_WEBHOOK_URL;
         console.log('N8N_WEBHOOK_URL configured:', !!n8nWebhookUrl);
         
         if (n8nWebhookUrl) {
             console.log('Sending to n8n webhook...');
-            // Fire and forget - don't await to keep response fast
-            fetch(n8nWebhookUrl, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    timestamp: new Date().toISOString(),
-                    conversationId: data.conversation_id || conversationId || null,
-                    question: question,
-                    answer: assistantMessage,
-                    source: 'tacttus-website',
-                }),
-            })
-            .then(res => console.log('n8n webhook response:', res.status))
-            .catch(err => {
+            try {
+                const n8nResponse = await fetch(n8nWebhookUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        timestamp: new Date().toISOString(),
+                        conversationId: data.conversation_id || conversationId || null,
+                        question: question,
+                        answer: assistantMessage,
+                        source: 'tacttus-website',
+                    }),
+                });
+                console.log('n8n webhook response:', n8nResponse.status);
+            } catch (err) {
                 console.error('Error sending to n8n webhook:', err.message);
-            });
+            }
         } else {
             console.log('N8N_WEBHOOK_URL not set, skipping webhook');
         }
