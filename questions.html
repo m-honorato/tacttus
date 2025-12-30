@@ -53,6 +53,9 @@
         }
 
         @media (max-width: 900px) {
+            .chat-page {
+                padding-top: 60px;
+            }
             .chat-layout {
                 grid-template-columns: 1fr;
             }
@@ -61,9 +64,34 @@
             }
             .chat-main {
                 border-left: none !important;
+                height: calc(100vh - 60px);
+                height: calc(100dvh - 60px);
             }
             .mobile-header {
                 display: flex !important;
+            }
+            .chat-messages {
+                padding: var(--space-md);
+            }
+            .chat-input-container {
+                padding: var(--space-sm) var(--space-md) var(--space-md);
+            }
+            .suggested-list {
+                gap: 6px;
+            }
+            .suggested-btn {
+                padding: 6px 12px;
+                font-size: 0.75rem;
+            }
+            .empty-state h3 {
+                font-size: 1.25rem;
+            }
+            .empty-state p {
+                font-size: 0.9rem;
+            }
+            .empty-icon {
+                width: 60px;
+                height: 60px;
             }
         }
 
@@ -213,25 +241,38 @@
             display: none;
             align-items: center;
             gap: var(--space-sm);
-            padding: var(--space-md);
+            padding: var(--space-sm) var(--space-md);
             border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            background: var(--color-bg);
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
 
         .mobile-header .avatar-image {
-            width: 40px;
-            height: 40px;
+            width: 36px;
+            height: 36px;
             border-width: 2px;
+            border-radius: 50%;
+            object-fit: cover;
         }
 
         .mobile-header-text h2 {
             font-family: var(--font-display);
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 400;
+            line-height: 1.2;
         }
 
         .mobile-header-text p {
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: var(--color-text-muted);
+        }
+        
+        .mobile-header-text a {
+            color: var(--color-text-muted);
+            text-decoration: underline;
+            text-underline-offset: 2px;
         }
 
         /* Chat Messages */
@@ -501,7 +542,7 @@
                     <img src="https://i.imgur.com/EufynCX.jpeg" alt="Matias" class="avatar-image">
                     <div class="mobile-header-text">
                         <h2>Ask Matias</h2>
-                        <p>AI-Powered Avatar</p>
+                        <p>Powered by <a href="https://superme.ai/invite/matiashonorato" target="_blank">SuperMe AI</a></p>
                     </div>
                 </div>
 
