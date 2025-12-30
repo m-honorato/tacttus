@@ -43,7 +43,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=5">
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -89,7 +89,7 @@
                 <a href="/ask-me-anything">Ask Me Anything</a>
                 <a href="/contact" class="nav-cta">Let's Talk</a>
             </div>
-            <button class="mobile-menu" aria-label="Menu">
+            <button class="mobile-menu" aria-label="Menu" onclick="document.body.classList.toggle('menu-open'); this.classList.toggle('active');">
                 <span></span>
                 <span></span>
             </button>
@@ -119,8 +119,9 @@
                         <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
                 </a>
-                <a href="#services" class="btn btn-secondary">Explore Services</a>
+                <a href="/ask-me-anything" class="btn btn-secondary">Ask Me Anything</a>
             </div>
+            <a href="#services" class="hero-link">Explore Services</a>
         </div>
     </section>
 
@@ -653,7 +654,7 @@
         </div>
     </footer>
 
-    <script src="script.js?v=2"></script>
+    <script src="script.js?v=3"></script>
 </body>
 </html>
 

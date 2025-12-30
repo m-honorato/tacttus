@@ -139,28 +139,28 @@ function initNavbarBehavior() {
 
 /**
  * Mobile menu toggle
+ * Note: The click handler is now inline on the button element
+ * This function only handles closing when clicking outside
  */
 function initMobileMenu() {
     const mobileMenuBtn = document.querySelector('.mobile-menu');
-    const navLinks = document.querySelector('.nav-links');
     
     if (!mobileMenuBtn) return;
 
-    mobileMenuBtn.addEventListener('click', () => {
-        document.body.classList.toggle('menu-open');
-        mobileMenuBtn.classList.toggle('active');
-        
-        // Toggle aria-expanded
-        const isExpanded = mobileMenuBtn.classList.contains('active');
-        mobileMenuBtn.setAttribute('aria-expanded', isExpanded);
-    });
-
     // Close menu when clicking outside
     document.addEventListener('click', (e) => {
-        if (!e.target.closest('.nav') && document.body.classList.contains('menu-open')) {
+        if (!e.target.closest('.nav') && !e.target.closest('.mobile-menu') && document.body.classList.contains('menu-open')) {
             document.body.classList.remove('menu-open');
             mobileMenuBtn.classList.remove('active');
         }
+    });
+    
+    // Close menu when clicking a nav link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            document.body.classList.remove('menu-open');
+            mobileMenuBtn.classList.remove('active');
+        });
     });
 }
 
