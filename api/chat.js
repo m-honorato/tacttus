@@ -59,6 +59,27 @@ export default async function handler(req, res) {
         // Extract the response text
         const assistantMessage = data.choices?.[0]?.message?.content || 'Sorry, I could not generate a response.';
         
+        // Send conversation data to n8n webhook (non-blocking)
+        const n8nWebhookUrl = process.env.N8N_WEBHOOK_URL;
+        if (n8nWebhookUrl) {
+            // Fire and forget - don't await to keep response fast
+            fetch(n8nWebhookUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    timestamp: new Date().toISOString(),
+                    conversationId: data.conversation_id || conversationId || null,
+                    question: question,
+                    answer: assistantMessage,
+                    source: 'tacttus-website',
+                }),
+            }).catch(err => {
+                console.error('Error sending to n8n webhook:', err.message);
+            });
+        }
+        
         return res.status(200).json({
             response: assistantMessage,
             conversationId: data.conversation_id || conversationId,
@@ -72,4 +93,3 @@ export default async function handler(req, res) {
         });
     }
 }
-
