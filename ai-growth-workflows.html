@@ -40,7 +40,7 @@
     <style>
         /* Workflows Page Specific Styles */
         .workflows-hero {
-            padding: calc(var(--space-3xl) + 80px) 0 var(--space-2xl);
+            padding: calc(var(--space-3xl) + 80px) 0 var(--space-lg);
             position: relative;
             overflow: hidden;
         }
@@ -91,7 +91,60 @@
 
         /* Bento Grid */
         .bento-section {
-            padding: var(--space-xl) 0 var(--space-3xl);
+            padding: var(--space-md) 0 var(--space-lg);
+        }
+        
+        /* Coming Soon Card Style */
+        .bento-card.coming-soon {
+            border-style: dashed;
+            opacity: 0.7;
+        }
+        
+        .bento-card.coming-soon:hover {
+            opacity: 1;
+        }
+        
+        /* Workflow Preview Link */
+        .workflow-preview-link {
+            display: block;
+            position: relative;
+            margin-top: var(--space-md);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            flex-grow: 1;
+        }
+        
+        .workflow-preview-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            border-radius: var(--radius-md);
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        
+        .preview-overlay {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: rgba(0, 0, 0, 0.7);
+            color: var(--color-accent);
+            font-size: 0.875rem;
+            font-weight: 600;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .workflow-preview-link:hover .preview-overlay {
+            opacity: 1;
+        }
+        
+        .workflow-preview-link:hover .workflow-preview-image {
+            transform: scale(1.05);
         }
 
         .bento-grid {
@@ -352,30 +405,6 @@
             margin-bottom: var(--space-lg);
         }
 
-        /* Coming Soon Overlay */
-        .coming-soon-overlay {
-            position: absolute;
-            inset: 0;
-            background: rgba(17, 17, 17, 0.85);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity var(--transition-base);
-            border-radius: var(--radius-lg);
-        }
-
-        .bento-card:hover .coming-soon-overlay {
-            opacity: 1;
-        }
-
-        .coming-soon-text {
-            font-size: 0.875rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--color-accent);
-        }
     </style>
 </head>
 <body>
@@ -408,7 +437,7 @@
             <div class="workflows-hero-content">
                 <span class="section-label">AI Growth Workflows</span>
                 <h1>Automation That <span class="accent">Actually&nbsp;Works</span></h1>
-                <p>Real workflows I've built for growth teams. From lead qualification to content generation—systems that save hours and scale&nbsp;operations.</p>
+                <p>A few examples of AI workflows I've built, including GTM intelligence tools, ad generation, social listening, and more. These are systems built to solve for scale and&nbsp;speed.</p>
             </div>
         </div>
     </section>
@@ -425,21 +454,9 @@
                 <h3 class="bento-title">AI GTM Demo&nbsp;Analyzer</h3>
                 <p class="bento-description">Turn hours of sales recordings into instant, actionable insights. AI-powered analysis of call transcripts surfaces objections, competitor mentions, deal patterns, and coaching opportunities—giving GTM, PMMs and PMs direct access to customer intelligence without enterprise&nbsp;pricing.</p>
                 
-                <div class="workflow-preview">
-                    <div class="nodes-animation">
-                        <div class="node"></div>
-                        <div class="node"></div>
-                        <div class="node"></div>
-                        <div class="node"></div>
-                        <div class="node"></div>
-                    </div>
-                    <div class="workflow-preview-placeholder">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <rect x="3" y="3" width="18" height="18" rx="2"/>
-                            <path d="M3 9h18"/>
-                            <path d="M9 21V9"/>
-                        </svg>
-                        <span>Workflow preview</span>
+                <div class="workflow-preview" style="padding: 0; min-height: 0;">
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0; width: 100%; border-radius: var(--radius-md); overflow: hidden;">
+                        <iframe src="https://www.loom.com/embed/4193cdad662748e69d29d7d40727879a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
                     </div>
                 </div>
 
@@ -466,9 +483,6 @@
                     </div>
                 </div>
 
-                <div class="coming-soon-overlay">
-                    <span class="coming-soon-text">Coming Soon</span>
-                </div>
             </div>
 
             <!-- Medium Card - Lead Research -->
@@ -478,6 +492,18 @@
                 </div>
                 <h3 class="bento-title">AI-Powered Lead Research&nbsp;Engine</h3>
                 <p class="bento-description">Instantly research every inbound lead with AI-powered deep dives. Automatically pulls company intel, recent news, competitive landscape, and person profiles, then generates executive briefings with personalized conversation&nbsp;starters.</p>
+
+                <a href="https://www.awesomescreenshot.com/image/58108869?key=a6685e9a876098e39c2b84e9a9e6b270" target="_blank" class="workflow-preview-link">
+                    <img src="lead-research-preview.png" alt="Lead Research Engine Demo" class="workflow-preview-image">
+                    <span class="preview-overlay">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                        View Full Demo
+                    </span>
+                </a>
 
                 <div class="tool-stack">
                     <span class="tool-badge">n8n</span>
@@ -501,108 +527,84 @@
                     </div>
                 </div>
 
-                <div class="coming-soon-overlay">
-                    <span class="coming-soon-text">Coming Soon</span>
-                </div>
             </div>
 
-            <!-- Wide Card - Customer Onboarding -->
+            <!-- Wide Card - Ad Creative -->
             <div class="bento-card wide">
                 <div class="bento-category">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                        <polyline points="22 4 12 14.01 9 11.01"/>
-                    </svg>
-                    Onboarding
+                    🎨 Ad Creative
                 </div>
-                <h3 class="bento-title">Personalized Onboarding&nbsp;Flow</h3>
-                <p class="bento-description">Triggers welcome sequences based on user segment, tracks activation milestones, and alerts CS team for high-value&nbsp;accounts.</p>
+                <h3 class="bento-title">Inspiration-to-Ad Image&nbsp;Generator</h3>
+                <p class="bento-description">Screenshot any ad you love, send it to Telegram, and get brand-consistent product ads in seconds. AI analyzes composition, mood, and style, then generates polished Meta-ready creatives in multiple formats, maintaining your exact product and brand&nbsp;aesthetic.</p>
 
                 <div class="tool-stack">
                     <span class="tool-badge">n8n</span>
-                    <span class="tool-badge">Segment</span>
-                    <span class="tool-badge">Customer.io</span>
-                    <span class="tool-badge">Slack</span>
+                    <span class="tool-badge">OpenAI Vision</span>
+                    <span class="tool-badge">Kie.ai</span>
+                    <span class="tool-badge">Telegram</span>
                 </div>
 
-                <div class="coming-soon-overlay">
-                    <span class="coming-soon-text">Coming Soon</span>
+                <div class="bento-metrics">
+                    <div class="metric">
+                        <span class="metric-value">3 formats</span>
+                        <span class="metric-label">Per inspiration</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">&lt; 60 sec</span>
+                        <span class="metric-label">Generation time</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">100%</span>
+                        <span class="metric-label">Brand consistent</span>
+                    </div>
                 </div>
+
             </div>
 
-            <!-- Wide Card - Reporting -->
+            <!-- Wide Card - Video Content -->
             <div class="bento-card wide">
                 <div class="bento-category">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21.21 15.89A10 10 0 1 1 8 2.83"/>
-                        <path d="M22 12A10 10 0 0 0 12 2v10z"/>
-                    </svg>
-                    Analytics
+                    🎬 Video Content
                 </div>
-                <h3 class="bento-title">Weekly Growth&nbsp;Digest</h3>
-                <p class="bento-description">Aggregates metrics from multiple sources, generates AI-powered insights, and delivers a formatted report to Slack every&nbsp;Monday.</p>
+                <h3 class="bento-title">AI UGC Video&nbsp;Generator</h3>
+                <p class="bento-description">Generate authentic, influencer-style product videos with AI. Input your product image and a script, get natural, candid videos that look like real creator content—not AI. Built for TikTok, Reels, and Shorts with casual iPhone-quality aesthetics for a fraction of the price of an&nbsp;influencer.</p>
 
                 <div class="tool-stack">
                     <span class="tool-badge">n8n</span>
-                    <span class="tool-badge">BigQuery</span>
-                    <span class="tool-badge">OpenAI</span>
-                    <span class="tool-badge">Slack</span>
+                    <span class="tool-badge">OpenAI Sora 2</span>
+                    <span class="tool-badge">GPT-5</span>
+                    <span class="tool-badge">Google Drive</span>
                 </div>
 
-                <div class="coming-soon-overlay">
-                    <span class="coming-soon-text">Coming Soon</span>
+                <div class="bento-metrics">
+                    <div class="metric">
+                        <span class="metric-value">8 sec</span>
+                        <span class="metric-label">Video clips</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">~$1.5</span>
+                        <span class="metric-label">Cost per video</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">0</span>
+                        <span class="metric-label">Actors needed</span>
+                    </div>
                 </div>
+
             </div>
 
-            <!-- Small Cards Row -->
-            <div class="bento-card small">
-                <div class="bento-category">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
-                        <line x1="8" y1="21" x2="16" y2="21"/>
-                        <line x1="12" y1="17" x2="12" y2="21"/>
-                    </svg>
-                    Operations
-                </div>
-                <h3 class="bento-title">Meeting Notes&nbsp;Processor</h3>
-                <p class="bento-description">Transcribes calls, extracts action items, and syncs to your project management&nbsp;tool.</p>
-
-                <div class="coming-soon-overlay">
-                    <span class="coming-soon-text">Coming Soon</span>
-                </div>
-            </div>
-
-            <div class="bento-card small">
+            <!-- Placeholder for future workflow -->
+            <div class="bento-card wide coming-soon">
                 <div class="bento-category">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="10"/>
-                        <line x1="2" y1="12" x2="22" y2="12"/>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        <line x1="12" y1="8" x2="12" y2="16"/>
+                        <line x1="8" y1="12" x2="16" y2="12"/>
                     </svg>
-                    Enrichment
+                    Coming Soon
                 </div>
-                <h3 class="bento-title">Company Data&nbsp;Enrichment</h3>
-                <p class="bento-description">Auto-enriches company records with firmographic data from multiple&nbsp;sources.</p>
-
-                <div class="coming-soon-overlay">
-                    <span class="coming-soon-text">Coming Soon</span>
-                </div>
-            </div>
-
-            <div class="bento-card small">
-                <div class="bento-category">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                        <polyline points="22,6 12,13 2,6"/>
-                    </svg>
-                    Email
-                </div>
-                <h3 class="bento-title">Smart Email&nbsp;Responder</h3>
-                <p class="bento-description">Drafts contextual replies using AI based on email content and CRM&nbsp;history.</p>
-
-                <div class="coming-soon-overlay">
-                    <span class="coming-soon-text">Coming Soon</span>
-                </div>
+                <h3 class="bento-title">More Workflows in&nbsp;Progress</h3>
+                <p class="bento-description">New automation workflows are being developed. Check back soon for more AI-powered solutions.</p>
             </div>
 
         </div>
