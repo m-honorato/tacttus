@@ -1,0 +1,638 @@
+0 (0s):
+This is 20 VC with me, Harry Stebbings, and This is the last episode of 2025. Now, if you are wondering why I sound like Mick Jagger, no it is not because I have been partying like a maniac and lost my voice over the Christmas break. It's because I have been walking four marathons in four days with my mother to raise money for multiple cirrhosis sufferers. We've raised $50,000 in the last three days. I would love your support if you want to donate to Ms. Sufferers, but that is why I sound like Mick Jagger. But to the show today and data is everything in the world of model performance. Turing Macor and today's guest invisible are one of a few who have reached several hundred million dollars in revenue.
+
+0 (44s):
+And as I said, I'm thrilled to be joined today by Matt Fitzpatrick, CEO of Invisible Technologies. Now since joining a CEO in January, 2025, he's achieved some incredible milestones. Most significantly, he's raised over a hundred million dollars for the company and as I said, he's hit the rarefied air of over 200 million in annual recurring revenue. This was an incredible show recorded in person in London and I cannot wait to hear your feedback.
+
+Superhuman (1m 9s):
+But before we dive into the show today, are you drowning in AI tools? Chat, GPT for writing, notion for docs, Gmail for email, slack for comms, and you are constantly copy pasting between them all, losing context and losing time. This is the AI productivity tax and it's killing your output. At 20 vc, we're all about speed of execution, and Superhuman is the AI productivity suite that gives you superpowers everywhere you work. With the intelligence of Grammarly Mail and Coder built in, you can get things done faster and collaborate seamlessly. Finally, AI that works where you work however you work, Superhuman gets you from day one with zero learning curve and it is personalized to sound like you at your best, not like everyone else using generic ai. Get AI that works where you work, unlock your Superhuman potential. Learn more at Superhuman dot com slash podcast. That's Superhuman dot com slash podcast.
+
+AlphaSense  (2m 10s):
+And speaking of tools that give you an edge, that's exactly what AlphaSense does for decision making. As an investor, I'm always on the lookout for tools that really transform how I work. Tools that don't just save time but fundamentally change how I uncover insights. That's exactly what AlphaSense does with the acquisition of tegu. AlphaSense is now the ultimate research platform built for professionals who need insights they can trust fast. I've used Tegu before for company deep dives right here on the podcast. It's been an incredible resource for expert insights. But now with AlphaSense leading the way, it combines those insights with premium content, top broker research and cutting edge generative ai. The result, a platform that works like a supercharged junior analyst delivering trusted insights and analysis on demand. AlphaSense has completely reimagined fundamental research helping you uncover opportunities from perspectives you didn't even know how they existed. It's faster, it's smarter, and it's built to give you the edge in every decision you make. To any VC listeners, don't miss your chance to try AlphaSense for free. Visit AlphaSense dot com slash two zero to unlock your trial. That's AlphaSense dot com slash two zero.
+
+Daily Body Coach (3m 19s):
+And if AlphaSense helps you make smarter decisions daily Body Coach helps you build smarter habits. You know how so many founders and execs say they'll finally take care of their health once things slow down well they never do. Running a business is a marathon made of high intensity sprints and taking care of yourself is what gets you through those times performing at your best both professionally and personally. This is exactly where Daily Body Coach comes in. Daily Body Coach is a complete high touch service for busy founders and executives. Combining personalized nutrition and training with psychology based coaching to help you not just follow a plan but actually build the systems, habits and mindset to stay at the top of your game. Built by an exited founder and led by certified experts with masters and PhD level credentials, daily Body Coach is fully tailored to your life. Whether you are traveling, dining out or in back, back-to-back meetings, you get daily accountability, data-driven insights from DEXA scans and blood work and a highly certified team backing you. If you are serious about performing at your best physically and mentally, go to daily body coach.com/two zero vc. That's daily body coach.com/two zero VC and take the next step.
+
+0 (4m 35s):
+You
+
+1 (4m 35s):
+Have now arrived at your destination.
+
+0 (4m 38s):
+Matt, I am so excited for this dude. I think Invisible is one of the most incredible, but also, I'm sorry to say this, I under-discussed businesses when I look at the incredible achievements that you've had over the last few years. So thank you so much for joining me.
+
+2 (4m 51s):
+Thank you for having me. I really enjoy the show.
+
+0 (4m 53s):
+Can you just talk to me about how does like a 10 year McKinsey stool warrior become CEO of like one of the fastest growing data companies in tech? How does that transition happen?
+
+2 (5m 5s):
+I would say my McKinsey journey was non-traditional. I spent 12 years there. I was a senior partner and I led a group called Quantum Black Labs, which is the firm's global tech development group. So about 10 years ago, McKinsey actually started hiring engineers like and I was a, a big part of this in a pretty big quantum and when I started we had about a hundred engineers total in the firm. By the time I left we had 7,000. I oversaw about a fifth of that group and all the application development, all of the data warehouse infrastructure and all of the gen AI bills globally. And so that journey was, was really interesting and I, and I, you know, over the course of it spent a variety of my time competing with other large enterprise AI businesses and I got to know the, found the founder Francis really well about three years or four years ago now, we actually met totally not work related kind of social context where we were discussing.
+
+2 (5m 49s):
+It was a, it was basically a forum called dialogue. I dunno if you've heard it, but you basically talk about different ideas. We bonded over, I keep
+
+0 (5m 55s):
+Getting invited to this, it's in like Hawaii though. It's
+
+2 (5m 58s):
+In many different locations. It's fuck, I really enjoy it because you actually don't talk about work at all. You're not allowed to talk about your job. You spend time talking about history, politics, technology.
+
+0 (6m 6s):
+What does everyone from San Francisco do
+
+2 (6m 9s):
+They put, they don't talk about it for for two days, which is
+
+0 (6m 12s):
+Silent retreat. Exactly, exactly.
+
+2 (6m 15s):
+But I actually think it's one of the few events I've been to where people are not talking in their own book. They're not trying to convince you of anything and you just really actually I've made a bunch of really good adult friendships out of that and so Francis and I gotta know each other from that four years ago and there had been another CEO kind of in the two years before, before I joined who was actually based in Australia interestingly. And so when the business got to a certain scale, it was just time to have a US based CEO that could help take the business to the next level. And you know, it was actually, Francis just approached me and kind of pretty directly said, do you wanna be our next CEO? And that was kind of, that was kind of what happened.
+
+0 (6m 45s):
+Was it a no brainer?
+
+2 (6m 46s):
+Look, I, I think when you walk away from a really stable job that you really enjoy, that's always difficult. The sliver of McKinsey that I was doing, I found to be one of the most intellectual day-to-day jobs ever. I was working with all the Fortune 1000 on every different AI topic daily and particularly in the early machine learning days kind of 10 years ago. I think we built some really interesting stuff. But yeah, it was, I think it was kind of a no brainer in some ways. 'cause I think when you think about it, I think This is the most interesting time to run a company on a topic that has probably existed in our lifetime, may maybe the two thousands. But to run a company in AI right now is, is fascinating. The, the rate at which you can build the people at which you can recruit the, the interest of customers in this topic. And So I felt like I had spent 10 years learning one topic and now I had a chance to run a business and build it the way I wanted to build it on that topic.
+
+2 (7m 30s):
+And that's just something you can't pass up and even though, you know, walked away from a fair amount. But I think that I'm much more excited about building something for the next two decades out of this.
+
+0 (7m 39s):
+When we think about like decision making frameworks, I always have one, which is like find someone who you respect and admire. So for me it's Pat Grady who's the head of Sequoia. I've known him for 10 years, he's a great father investor and husband. Three things that I care about and whenever I have a tough decision I'm like, what would Pat do? And most of the time I get to the answer by asking that question in that framework. If I were to ask you what do you ask yourself? How do you find direction when struggling with a decision?
+
+2 (8m 6s):
+I'm not a particularly materialistic person. You know, I think when I was coming outta college for example, everyone was focused on going into large finance jobs, which at that time were pre pre-financial crisis obviously where, where a lot of that was. And I think a lot of what I think about is doing work day to day that I really enjoy with people I really enjoy and then building something. And I, I do think I really enjoyed the decade I spent building at McKinsey. I think that was an incredibly interesting experience to stand up something of that scale within an existing institution. And then I, I do think about, I read a ton about everything from military history to current entrepreneurs to enterprise executives I really admire. And then I have a group of kind of a small group of people whose opinions I ask pretty regularly and probably the most telling piece of advice, my girlfriend and my main mentor, both of them when I asked within two minutes were, were like, absolutely do this.
+
+2 (8m 52s):
+My main mentor is a guy named ESH Khanna, who had been a senior partner at McKinsey for a long time, is on the board of a whole variety of different companies today. And I remember we got lunch, I walked him through the opportunity and I said, listen, it's big risk. And he goes, the only risk is if you don't take this and the amount of regret you'll have not give it a go.
+
+0 (9m 7s):
+I, I totally agree with that one. I, I was once given advice that whatever you think you should do, hold that close and then let your girlfriend tell you what you should do and that's why you still have a relationship. It's a great piece of advice that was from someone who's been married for 40 years and So it is worked well for him. We were chatting before and I said, listen, where do we have to go? I always think that the best conversations are led by passion. The first one that you said was there's a gap or a chasm between model performance and adoption. When we break that down, can you explain to me what you meant by that and how we see that in action?
+
+2 (9m 40s):
+Yeah and, and let me set the context and I'll go into more detail later, but invisible is an interesting business in that we both train all the large language models with reinforced learning human feedback. And we are at the core and us a modular software platform where in enterprise context we deploy all different enterprise use cases. And I think the cognitive dissonance that occur has occurred over the last couple years is model performance has increased exponentially. I don't think anyone doubt that if you look at all the public benchmarks, models have increased 40 to 60% in performance over the last two years. And consumer adoption has been also exponential. So KPMG just released it. 60% of consumers use JI weekly now. But the enterprise has not, you know, I think the, in the enterprise MIT just released this report that 5% of JI deployments are working in any form.
+
+2 (10m 23s):
+You know, I think you've seen Gartner saying 40% of enterprise projects will likely be canceled by 2027. And I think the reason for that is deployment of the enterprise is a lot more than just models themselves. It's the data infrastructure to support those models. It's the redesign of workflows, it's the process figuring out which operational leader takes accountability for that. And most importantly it's trust, it's observability, it's all the things that, you know, I spent a decade building things like credit models in, in banking and in those cases you need to go through model risk management, testing, training, validation. And So I think that whole process is in the first inning in the enterprise. I think it's gonna take a decade, not two years. And and I do think that is the core mission that we think a lot about is I actually think the evolution of deployment of AI will be what the model builders have done for the last couple years.
+
+2 (11m 10s):
+You'll, you'll see banks and healthcare firms start to do the same sort of testing and validation over, over this period and then the rest of the enterprise will be over the next five, six years after that. And that's the journey that we're we're focused on.
+
+0 (11m 19s):
+I was speaking at one of the largest banks in the world, absolute joke that they get a university dropout like me to speak at their like largest. I find it very fun. But I left and I messaged the team and I just said, oh my god they're toast. And they're toast because I said about the amazing tool they should implement internally and the CTO laughed at me, he was like Dude, there's no way that we can ever adopt your off the shelf search engine optimization for your LLM tool because of data, because of security, because of permissions. And I was like, wow, everything that you just said there, there I listened to. Yeah but that was once you got in the door. Are enterprises even open for business? You see Goldman Sachs developing a huge amount of their own tools.
+
+0 (12m 2s):
+Are they open for AI business?
+
+2 (12m 4s):
+Yeah, it's a great question. I think it depends a bit on the sector. I think for there are sectors like banking that are very focused on building this internally. I think that is a reality.
+
+0 (12m 12s):
+Do you think that will work the internal build for them? So
+
+2 (12m 14s):
+It's interesting if you look at the MIT report, what I, which is the one I mentioned that says 5% of models are making a production right now, they actually cite a stat that externally driven builds are two x as effective as internal team builds. I actually think there's an interesting kind of 10 year pattern on this, which is 10 years ago everyone bought software, right? Like that was your tech team did not try and build anything and you started to buy and you bought, you know, often you bought way too many apps but you bought 15 different apps and that was what the technology team did. And then I think with the advent of cloud, you started to have a world where the technology functions started to start to think about building things like maybe they started to have more some custom applications that wrapped around that. I think gen AI has five x that where now an internal team has given this enormous budget and said kind of go, go have at it.
+
+2 (12m 58s):
+And I think that's complicated because I think when you hire somebody to build any vendor of any kind, you're pretty disciplined about what are you delivering on what timeline, what's the ROI of it, what are the milestones, how does that, and I don't think that that discipline exists in the same way in internal builds. I also think that the talent levels often the internal teams have are challenging. And so
+
+0 (13m 17s):
+When you say the internal team builds are challenging, there are some things that you can't say but I can, the perception from external or from general kind of tech crowds is the internal teams for I don know you name your boring large enterprise, it's just really low quality. You're not getting the top tier AI engineers, you're not getting top tier devs. Is that true?
+
+2 (13m 37s):
+Look, I think the amount of talent that knows how to do this well is not large. And so that that finite group mostly works in AI startups of various forms, right? And and large tech companies. And So I do think there's real risk to the process of figuring this out from first principles and enterprises, right? And I think that's part of the cycle that we're going through right now is a lot of internal groups have gone through the process of saying we must do this all internally. But the reality is if you think about that This is an open architecture ecosystem and you're gonna adopt things like MCP or you know all the new voice agent that comes out, you actually want a modular open architecture where you can use all the best tech available and figure out how to link it together. And I think the, the desire to shape that all internally has been challenged.
+
+2 (14m 19s):
+Like I'll give you, I'll give you one of the more interesting examples I can discuss. I was talking with an e-commerce retailer that had built an agent to handle their returns process and they spent 25 million bucks building this agent. And at the end of it I said, well how did you define this was after I'd met them after they built it. And I said at the end of it, how did you define if this agent worked or not? And they're like, well we built, we built our own eval tool. This is not a joke. And we basically analyzed a mix of speed of call resolution and sentiment. The problem with that is what if the agent hallucinates and says here's $2 million that actually gets resolved quickly and the person's happy. And so they had built this entire system from first principles and what ended up happening was a couple months later they shut it down and moved back to a deterministic flow.
+
+2 (15m 0s):
+And that's not surprising to me at all. And So I do think that's a little bit of the adoption curve we're in is over the next two years you're gonna see the CFO function put different guardrails on how this stuff is built and say what is the ROI? What are you investing in? What's the metric? What's the return? And that will change the adoption curve. But right now there have been a lot of science projects. I think that is a realistic
+
+0 (15m 20s):
+Okay, you know we have hundreds of thousands of listeners and many of them are CEOs. If you are a CEO thinking about your CFO being equipped to buy and to manage in this new environment, what should they be thinking about and do we have the right CFO talent pool to manage this new environment? Yeah,
+
+2 (15m 38s):
+So I think one misconception is that that leader has to be highly technical to make that decision. And I would actually argue they don't it all, they just need the same muscle memory they've looked at in the past, which would be what do you need to get a gen AI initiative working? You need good data that you can work off of for that specific initiative. Clear milestones and outputs, clear line ownership of the initiative. And then probably most importantly, you wanna actually anchor it in milestones and outcomes where you pay as it works. So I think the other interesting context for a lot of This is what I would call the Accenture paradigm of the last 20 years, right? Which is a lot of times the way that if you think about the wrapper that's been around software for the last 20 years, you know our founder Francis Za has the founding principle of Invisible was if there's an app for everything, how come nothing works?
+
+2 (16m 22s):
+Huh? And it's an interesting concept, right? Because what what ended up happening is you bought 50 apps, you had Accenture come in and you paid them $200 million over two years to try and layer them all together. And often you ended up a couple years in with no working data, no linkages between them. And that kind of layers of sediment has been how the tech paradigm worked in the enterprise for the last five years. And I, I think what's different now is if you're thinking about a specific gen AI initiative, like a contact center let's say you don't need to operate that way. You can think about what are the operational metrics you want in your contact center. You wanna think about call resolution, call performance, cost per call, routing logic, you know, you can then look at both internal and a set of vendors who will deliver those metrics and make an evaluation.
+
+2 (17m 2s):
+And if the vendor doesn't work, you fire them. And I actually, there's a very clear way to get ROI in this, which is figure out the list of three to four things that move the needle for your business. Focus on those three to four, don't spend money on a thousand science projects. Take your best four operational leaders and put them on those four things. Don't locate it in the tech function. That's the main advice I give people is your gen AI initiative should be led by the business and figure out that could be your head of call center, that could be your head of operations, but each of those people with clear operational KPIs will get this stuff working. And there are a bunch of companies that have, but it's just a very different approach than I'm building gen AI as an example.
+
+0 (17m 35s):
+It's really interesting you said don't invest in a bunch of science projects, do three to four initiatives. Okay, let's do three to four initiatives again. Yeah, let's put on that CEO hat contact center. It's just a big one that is homogenous across everything. Yeah. Matt, there's so many players in the contact center space. I'm A CEO, I'm not a, I'm not a Silicon Valley guy. How am I meant to understand whether we go for Sierra or Dagone or Zendesk of old or intercom or any of the other players that we've seen in this space. How do you advise the biggest CEOs on buying in a wave of new innovation?
+
+2 (18m 7s):
+I think This is the other big challenge of gen AI adoption is you're an average C-T-O-C-O-O, you've got 250 of vendors a week pitching you. All of them sound pretty similar. In fact, I was with a customer yesterday who literally started the meeting by saying how are you different than the other 250 people that have pitched me this week? So This is, This Is the dynamic of we have an oversaturation of companies that all sound relatively similar relative to agents. To make your question even more pointed, a lot of them don't work. You know, I think you've got a fair number of the enterprise agent companies that you know, like Salesforce say I research release this report that if you test a lot of the outta the box agents on single turn and multiterm workflows, there are about 58% accurate on single turn and 33% accurate on multi turn workflows, which means they don't really work.
+
+2 (18m 50s):
+And so you've got this challenge of 200 companies a week pitching you, you don't really know how to select it and you're worried you're gonna pick someone that's effectively Charlotte and it won't work. And and the more you have a a, a market where there's a lot of excitement, the more you do have that risk, right? So I think the simplest advice I give, and by the way This is how we sell quote unquote, is start with proof of concepts. Start with we call solution sprints. Don't pay a dollar until you prove the tech works. So like we don't actually sell anything, we meet a customer, we say we will, we will do it for free for eight weeks and prove to you the tech works. And that's a very simple way. If your tech works you'll show it. It's
+
+0 (19m 21s):
+An expensive way to do business.
+
+2 (19m 23s):
+It is and it's not. But, so let me give you an example like how one of our deployments works. 'cause I think it it, fair enough if the answer is that, you know, it takes you two years to build anything but like I'll, I'll give you an example. So our AI software platform is effectively five modular modular components. So neuron, which our data platform brings together structured unstructured data Axon, which is our AI agent builder Atomic, which is effectively a process builder. We can build any custom software workflow. And then we have a Meridian expert marketplace which is we, we have 1.3 million experts a year on any, any topic you can imagine that we bring into those workflows. And then Synapse, which is our valuation platform on all of it, now we can take those five things and configure them to almost any different enterprise context. So just an example, we serve food and beverage, public sector, asset management, agriculture, sports, oil and gas.
+
+2 (20m 8s):
+A whole host of different sectors using that same modular architecture, I think we, we end up scaling pretty materially once we show what the tech works, we're working with a company called Lifespan md, which is a concierge medicine business across the US and and internationally. And what we're doing for them is we're building them an entire tech backbone where they have an enormous amount of fragmented data across EHRs, C-R-M-E-R-P systems, notes, everything else, all of their data sits in a pretty fragmented format. And so we're using Neuron to bring all that data together. We do that very, very fast. So if Accenture would take two years, we can usually do it in two to three months. We're then on the back of that building a lot of different intelligence and reporting so they can look at things like patient journeys over time, labs, genomics data, how much you use like the Ora ring or anything else like that.
+
+2 (20m 52s):
+But they wanna look at wearables, how all that content is looking so they have a lot of detail on what any patient is doing at one time. And then on top of that we layer things like we have the ability to interrogate it and ask lots of different questions like let me look at who's used peptides to mail between 36 and 50 and what have been the results. So we're using Axon to build all that and then we, we build and and to fine tune the model to do that. And then we actually do also on top of that, build lots of specific custom agents for things like scheduling. So what you get at the end of that is a transformed tech enabled business with all of those different components. Now that does take us a little while to, to stand up, but once that is there it's effectively hyper-personalized software. And that is my view on where this whole industry goes is you move from SaaS outta the box SaaS to much more hyper-personalization using the specific data of individual customer.
+
+2 (21m 42s):
+And that is what we do. Do you
+
+0 (21m 43s):
+Think you can work with enterprise today with Gen AI and with AI implementation without an intense fully deployed engineer mechanism?
+
+2 (21m 52s):
+I don't think you can. So we are, we've doubled down a huge part of what we do is four Deployed Engineers. So we now have eight offices in eight cities, four 50 people. We're fully focused on Ford deployed engineering and I can tell you from a decade in my prior life, you just cannot do this outta the box SaaS. It does not work. What
+
+0 (22m 9s):
+Are the economics of FDS look like? Obviously Palantirs made it the most sexy thing ever. I love the way tech crowds work where it's like we all just kind of get super excited by like an acronym. It's like This Is the coolest thing, but what do the economics look like?
+
+2 (22m 21s):
+Well one thing I'll say is forward deployed engineering has, has come to mean a lot of different things. So a lot of forward deployed engineering I think, you know, across the broader market is more like kind of solutions engineering where the people that kind of answer your questions and show up at your office, I think forward deployed engineering done well is executing a very specific workflow build. So you're effectively configuring a set of core platforms to build something hyper specific for that customer. And usually one of the questions is, it depends on how good your platform is. Because for example, you could argue Accenture is forward deployed engineering, right? But that, that build may take three years and in our case I think we've built modularity and built a lot of the new software workflow develop development workflows into what we do.
+
+2 (23m 2s):
+And so usually our four deployed engineering motions are about three months. So we will come on board, customize everything through the hyper specific way a customer wants it and then ha build something on a basis works and it does require ongoing fine tuning. So that's the other big difference that people should acknowledge, right? Is that you can't fine tune a model in an enterprise context and just leave it for four years and hope it continues to work. I could give you a hundred examples but take, take healthcare GLP one's launch, you do need to fine tune the model for the new context of the market. And so we, we do view it that way but I'm,
+
+0 (23m 31s):
+I'm, I'm very naive so forgive me on this. So do they pay additional for like FDS to come? Do you pay additional in terms of ongoing maintenance? Just on the economics of it,
+
+2 (23m 40s):
+For many of our competitors they do charge, we do not charge anything for fds.
+
+0 (23m 44s):
+Why not?
+
+2 (23m 45s):
+I I think it goes back to my general premise that the best way to differentiate in this market is to prove that your tech works. And so the way that we do This is we say you will, you will pay when the software is up and running and we're able to do with one to two person small FDE teams a lot. And so once that's stood up and running then we do have ongoing software that that is, you know, I think the, the paradigm that we're evolving from is over the last 20 years you had kinda the system of record layers where a lot of the value's at and what we're building is hyper-personalized system of agility layers. Kinda what sits up atop that, I think the Accenture paradigm is what people are afraid of and it's very hard to convince somebody you're gonna pay time and materials until it gets working. And So I spend less on seller sellers and more on four Deployed Engineers. That's my simple math.
+
+0 (24m 26s):
+I always think, you know, the biggest mistake that people have is they don't put the hat on of their customer. Yeah, yeah. I think the reason the show's been successful is 'cause I put the hat on of different customers. A lot of the customers that we have, it's startup founders who create amazing products and everyone wants to sell into enterprise, that's where the money is. Yeah. If I'm a startup founder thinking, huh, do we need fds? How do we do fds? How do we move into an FDE model? What would you say to them that they should know if they're thinking about starting that model or potentially needing that model knowing all that? You know,
+
+2 (24m 56s):
+I think it depends a lot on the nature of the business and what you're trying to build. You know, if you're trying to build a knowledge management system of public filings for finance for example, you don't need fds. 'cause what you're building there is a repository of information that people can access. You've seen similar things in healthcare for example. If you are trying to change workflows, you do need fds. I think that's the simple paradigm difference in my mind is if you're building something where the hardest part is getting adoption and workflow embedding and you need to actually change the way a company works, then yes forward Deployed Engineers are the only way to do it. It's interesting there aren't that many folks that have expertise doing that. So it, it's a hard thing to train and learn. But I do think it is the only way to get the enterprise working.
+
+2 (25m 37s):
+You've
+
+0 (25m 38s):
+Said several times, hey don't pay until you prove that it works. Yeah. And you said earlier pay as it works. That's not the SaaS business that we've been trained on. Matt and I'm a SaaS investor. How does the pricing model of the future look in this very new environment?
+
+2 (25m 53s):
+Let me step back for a second. I think an interesting thing, if you look at the economics of SaaS and enterprise five to 10 years ago, and I think it's an interesting look at any large public enterprise software business and then look at how much of their revenues actually services. And I think you could kind of argue that outta the box software has always been a lie to some degree. It's a weird thing to say but they always had a ton of configuration and they just dressed it up to some degree. I think SaaS was even more challenging than that because often the unit economics of SaaS, you're selling a much smaller cost per customer. The SaaS business that worked was actually about selling something where the outta the box setup was quick enough that you could make it work with the sales team where you didn't have to do lots of configuration. 'cause the minute you had to bring in FDS in a SaaS context, your economics broke, I mean instantly.
+
+2 (26m 36s):
+Right? And what I'd say then on the enterprise side, the way people made it work was you, that's why Accenture grew so much. That's why cognizant, that's why TCS grew so much is, I'll give an example, like if you take insurtech as an example, right? Every one of the major InsureTechs like at Duck Creek, like what they have is a set of core data schemas, a series of analytical logic and a front end. And the ones that did really well had momentum and push from the SIS that got them going. And so their economics were geared by having somebody else do all your, your services around what you did and then you got something up standing up at the end that worked. I think the challenge with Gene AI is that motion doesn't really work. 'cause what ends up being built at the end of the day is something that is hyper-specific to that customer.
+
+2 (27m 16s):
+Like if you actually think about the nature of it, fine tuning an LLM or creating a knowledge management system, it's not a box, it's not it. It is something that uses a lot of different consistent tooling but it, it has to be customized. And so the way we do that is we stand that up, we get it working and at the end of it, usually two to three months in the payment happens when we pass user acceptance testing and validation and it works. And here's the other thing I'll say is we use SaaS as a paradigm 'cause that's how software has worked. But machine learning has been around the enterprise for, I was building machine learning models 10 years ago. That's always been a motion that looked like this. So what what's happening now is we're starting to realize that the gen AI adoption paradigm in the enterprise works the same way that ML did.
+
+2 (27m 56s):
+When
+
+0 (27m 56s):
+We look at the different products that we have today, the expert platform is one I think that gets a lot of attention. Yeah. How much of the business today is the expert platform? I find companies are lumped into categories, it's easier and you have your Macaws, your surges, your invisibles and you're all kind of put in this like I all just talent marketplaces and no one wants to be a talent marketplace it seems, and I'm like how much of your revenue is the talent marketplace and why does no one want to be a talent marketplace?
+
+2 (28m 23s):
+I actually think the AI training space has many different players that do ma have many different business models within it. There's four to five but actually they're all quite different. I think of us much more as an AI training platform than just a talent marketplace. Meaning we have 1.3 million experts that come through the marketplace. But a lot of the expertise we've built over the last 10 years is the ability to, here's the simplistic question, I think that AI training asks, you have to be able to source any expert in the world in 24 hours notice you have to be able to source a PhD in astrophysics from Oxford, put them into a digital assembly line in four days later generate perfect statistically validated data that will be compared head-to-head somebody else's data and make sure that that that is perfect at the end.
+
+2 (29m 5s):
+That is an incredibly difficult thing to do. And so actually a lot of what I saw when I took over invisible was that motion was incredibly applicable to actually the next phase of the enterprise as well, which is the fine tuning motions, the training, the, the ability to statistically validate for an enterprise use case like claims processing. It's the same motion. Like I actually think AI training will be used next in banking and and healthcare and then after that in, in many other different enterprise contexts. And so the, the historical business I took over in 22 4 was pretty materially weighted to the AI training side of the house. But I came in with a thesis that enterprise would be a huge source of growth and I think as you see next year evolve, you know I think we've confirmed 12 enterprise deals in the last 45 days. So we, we see pretty good momentum on that side of the business and I think that's where we will evolve is to doing both I think the five core platforms we have allow us to serve a whole host of different end markets.
+
+2 (29m 55s):
+And I do think that's very different than the other AI training players you mentioned. I think we're the only player that spans that broad-based view in the same way
+
+0 (30m 2s):
+On the talent marketplace side. How much of the business is that today then?
+
+2 (30m 6s):
+I won't say an exact number, but it was a pretty material percentage of 2024.
+
+0 (30m 9s):
+Okay, got you. So it's a pretty material percentage. The one thing that's also striking is the concentration of revenue to a couple of core players when you look at other providers Yeah it's like two players that make up more than 50% of revenues for pretty much every provider. Is that the same for you and how do you think about what that revenue makeup will be given the enterprise diversification that you're talking about?
+
+2 (30m 32s):
+Yeah, I do think for This Is a space where there are not that many players that are, that are actually building lm. So by definition the whole space has concentration. I I think I would not disagree with that. I do think that's one of the really interesting things for us on the enterprise side is we have materially more diversification now in the number of customers we serve on a whole different range of topics. I also think you're, you're seeing more kind of early stage model builders as well that are building hyper-specific topics. And so that's, that's the other part of where we see expansion in the total customer base.
+
+0 (31m 2s):
+When you come to negotiations with a client, given the revenue concentration, how do you play that staring contest? 'cause essentially they go, we know that you, we are one of your core customers and we will squeeze you on price. And you go, I know I'm one of your core data providers, I will stand firm. How do you handle that negotiation? Because it is a staring contest of sorts.
+
+2 (31m 25s):
+I think people are willing to pay for good data. That's my simple firm. If you think about the importance of these models, if you think about the cost of compute, that is actually a huge chunk of the cost base. If you think about one week of bad data burns a lot of compute. I, I think what we've seen, the reason it's been the same four to five players in this market for a couple of years now is it's really hard to do well. And so people are willing to pay for good data. And So I think we, we have a very collaborative dynamic with all of our customers on that front. You know, i i I think that when you provide a service that's helpful, people are willing to pay for it and if you provide a service that doesn't work, people don't pay for it. And so the interesting thing I would say on that front is the discussion topics anchor around again proven value. So we'll get a topic that'll come in like a multimodal audio model for example.
+
+2 (32m 6s):
+And we'll go head to head with somebody on that that week and at the end of it we win or lose. And so if you win and your data is way better, people are willing to pay for that.
+
+0 (32m 14s):
+I had a chat last night with a board member of, of another of the companies in the space and he said two things that really stood out to me. He said, I'm just drastically shocked at the lack of price sensitivity for the core customers. Like they're willing to pay pretty much anything. Is that the case or is that a bit of an exaggeration?
+
+2 (32m 32s):
+I think that's an exaggeration. I think in any, if you think about like classic economics, people are willing to pay a fair price for good data. And So I don't think we operate in a model of trying to give anything unreasonable. I think there's actually fairly standard price bounds across all the players here is
+
+0 (32m 45s):
+Data commoditized. When I think about like pricing power, I'm a massive fan of Hamilton Helm's seven Powers. This is an amazing book. Yeah, great book. Yeah, great book. When you think about like pricing premiums, you get that through not being a commodity through owning supply of a rare assets. Yeah I is there commoditization of data and we're kind of in a race to the bottom on the pricing of that data or do you own the supply of vet workflow data for surgeons in Oklahoma? That's very,
+
+2 (33m 13s):
+Yeah, so, so let me take that. I'll actually start with the market context and then I'll actually use seven powers. It is a great book and I'll use one of his frameworks for that. Like I think the market context that is somewhat misunderstood here is the way that human data becomes more and more important over the next decade. And I think the reason for that is if you thought of the different types of things you could train off of, so synthetic data gets mentioned a lot, but like most of the time synthetic data is useful for things like let's say base truth information like math where there is a clear output that is right or wrong. Now let's take all of the different reasoning tasks, like a multi-step reasoning task. Like I mean even a simple one, like what movie would I select based on, you know, these five preferences? And then let's take that question and add into it audio, video, multimodal language, the ability to do it in 45 language, language context.
+
+2 (34m 1s):
+So the ability to think about computational biology in Hindi versus French versus English versus English in with a southern accent like that, that that paradigm is actually incredibly hard to train on and we're still in the first inning of a lot of those permutations of complexity is what I would say. And so for a multi-stage reasoning test that requires a PhD in multi different languages and like human feedback is gonna be important in that for the next decade. I have a strong belief on that and that was actually one of when I chose chose to take this job that was actually one of my core convictions is the enterprise is gonna need that too. 'cause actually a lot of, if you take legal services for example, a lot of the way you're gonna need to validate that is with legal expertise there's no corpus information you can train from.
+
+2 (34m 42s):
+So I would start with the idea that I think the market tailwind for the next 10 years we're actually in the first inning because there's the lms, then there's the more sophisticated enterprises and then there's everyone else that needs to train, validate and move to fine tuning. So again, contrasting there's like the pre-training and LM work, but then to fine tune a model to a specific context, most companies don't even know what that is in the enterprise yet. And that whole process we're in the first any of, So I think the market demand is gonna continue to grow pretty materially for a decade. The Hamilton Helmer framework is an interesting one 'cause he, he, my favorite example is he talks a little about what he calls institutional memory. He mentions the Toyota production system as an example, right? Where Toyota would literally say to people This is exactly how our factories are set up and nobody could replicate it, right?
+
+2 (35m 27s):
+I think the interesting thing about this space and why you've had a consistent set of folks doing it for a while is to go through the process of every week having to spin up. We have 1.3 million active agents or kind of experts that come into the pool at any given week. We have 26,000 of those that we've selected that have to start in 24 hours and produce perfect data. Think about the, the challenge of scaling an organization that for five years can do that at really high quality and consistently turn and and evolve to the different permutations of the market. New new ideas of training. It's really hard to do. And I think that was what got me most excited when I took the invisible job was the question of can you make AI work in a really complicated context?
+
+2 (36m 8s):
+Very few companies know how to do that on the enterprise side or on the training side of that for that matter. And So I thought that was a really unique institutional memory context. It is a digital assembly line no different than than a an auto factory. And I think that is a hard thing to replicate.
+
+0 (36m 23s):
+The other really interesting area that this board member said to me was, he very much agreed with you. He said exactly the same words as you in terms of first innings of data in terms of just how much market size will increase. He said the other thing that I really didn't understand when I made the investment was the specialization of data and how we are moving into the acquisition of this kind of insanely niche data supply pools where it's not like cat hedge, zebra crossing, zebra crossing, what do you guys call it? A pedestrian pathway or something?
+
+2 (36m 52s):
+Yeah,
+
+0 (36m 53s):
+He, I did not see the specialization in the unbundling. Is that something that you see too in terms of these very micro niche specialized data requirements?
+
+2 (37m 3s):
+Absolutely. I think, you know, five years ago this space was what I would call cat dog, cat dog commodity labeling. I don't think anyone, and and I think there was a lot of Google sheets in that era and you've seen some comments on that. Like this sector has evolved the same way most technology sectors do, where it started with Google sheets and cat dog labeling and it's evolved to real digital assembly lines, huge velocity of expertise and incredibly specific expertise. So like, you know, we have to give a funny example. We have to be able to validate an architectural expert on 17th century French architecture who speaks French. I mean that is a, that is a complex thing to do on 24 hours notice, right? And so the ability to source, assess, validate, and I think one of the advantages for us is because we have five years of data on who's been good at what task.
+
+2 (37m 45s):
+There's real institutional data memory in how you do that selection and assessment. I think that's one of the core advantages we have from that.
+
+0 (37m 52s):
+How important is pay? You know, I think a couple of other providers, you know, have said that bluntly it's about how much you pay. You pay more than the others, you'll get the good talent.
+
+2 (37m 59s):
+So a a weird analogy I think of our business like Uber, we source talent at the price at which people will do the work that is asked of them, right? So the the same way I do that, if you're standing standing on a street corner, your question is, can I find a ride that will pick you up at this moment within three minutes and that matter, that's a different price. If it's raining, that's a different price. If you're in, you know, Rio de Janeiro versus London, right? The, the price depends on the market context and the specific place you are. I think extra pay is the same dynamic. Really a lot of what we're doing is what I call price discovery. And so the nuance I would add to what you're saying is you can overpay a really bad expert and that is a total waste of everyone's time. And so what I think our customers appreciate is we can tell you between $150 expert and $130 expert the difference in expertise you get.
+
+0 (38m 43s):
+Do you think you have control of a finite supply of data providers? If you look at the seven powers and Hamilton Ham, one of them is like acquiring finite supply.
+
+2 (38m 53s):
+So I actually don't think finite supply matters. And what I mean by that is I think the expertise needed varies so much month to month that if you tried to do a world where you bottled up whatever supply it is, it would change in three months. And we actually relish that concept. I actually think the dynamic again, why I would use Uber and Lyft, you could use Airbnb and VBO is the same context is I don't think experts go on five platforms, right? I think actually what you want to be is This is a two-way marketplace where you need enough demand for our people to be interested and you need enough e expertise that many experts. And I think the reason we get 1.3 million inbounds is because of that kind of supply demand balance. So I don't think this moves to a world and I actually, I would never say we moved to the world where there is one player coming outta this.
+
+2 (39m 34s):
+I think there's benefits to everyone to having numerous players that do AI training. And so it's a question of being one of the players that has that balance.
+
+0 (39m 41s):
+You said there about kind of the switching of preference of like, oh, three months ago it was this, you want now it's something completely different. Switching cost is another, when you have data providers in this way, are there inherent barriers to switching? Is there any loyalty?
+
+2 (39m 56s):
+Yeah, no, i, I think that if you've learned how to do a certain data task really well, there's incredible value in that. And let's take the enterprise context again 'cause I do think it's a good one. So I'll give you an example. We're doing a lot of fine tuning on some pretty interesting topics. One example, we worked with SAIC, VOR and the US Navy on fine tuning a model for underwater drone swarms. And so the question on that, if you think about niche, Very niche, This is why I use as an example to answer your question. So if you thought of it in that context, you've got a bunch of underwater unmanned vehicles and they're getting an all the drone and sensor data from the, the interaction patterns of those vehicles. And what they wanna know is, you know, an object is in the water near them. What do they do? Do they react? Do they pull back?
+
+2 (40m 37s):
+Do they alert another drone? Do they engage? What are the topics of that? So fine tuning a model to take in all that complex sensor data, fine tune it, train it, and build decision making framework for those drones. There's a lot of logic built into that and I think that's why it's been a great partnership with SAIC and ventor. 'cause we built logic on how to do that and it's, you know, I think that there is real sustainability and expertise. You, you, you build up. And so the way I think about like our, our enterprise motion for example is every sector is led by somebody with deep, deep sector expertise. And we do build real logic on those topics. And I think the same is true for multimodal video and audio. It's true for legal. I actually think a lot of the training work even at the model builder side.
+
+2 (41m 17s):
+Now, one interesting view I have is people talk a lot about the public benchmarks. That tends to be one question you get a lot is like, are we reaching a point where models are not improving? I actually think it, I think about it very differently, which is the models are now all moving down hyper-specific things where there's not a public benchmark for them by definition, right? Like they're moving to more very specific tasks that are very different and not something you can publicly benchmark in the same way. And that's why we do see more and more model improvement every day, but both in model builders and enterprises on these specific tasks
+
+0 (41m 48s):
+You said about kind of the benchmarks. So I'm just so interested in we, gem Gemini three killed it, it's the best ever. And then yesterday, Opus 4.5 killed it, it's the best ever next week Sam's gonna release one. Does it matter? Like, are we in a world of such transient and flux where really we should detach ourselves from these bluntly updates to last for days?
+
+2 (42m 11s):
+Look, I I think the benchmarks are a useful framework for society to gauge progress on this topic. And it's a very, it's a very often discussed topic. So people want a way to answer the question, how are the models improving? And I can tell you like unequivocally the answer is yes. I mean, I think by every measure you look at, they are, and you know, they're not only improving on the benchmarks, but even on specific tasks like research for investments for example, you can see the models are much better at doing certain tasks. And I think what you're seeing start to happen is people, and we're doing this as well, are building very specific work base benchmarks to calibrate certain things like how well does the model do on building an LBO model, for example. And you're gonna see more and more benchmarks cited. Now the complexity then becomes if you move from five main benchmarks, likewe bench and others to 600 benchmarks, then you kind of lose track of what's doing, who, who's doing well and which things.
+
+2 (42m 58s):
+But I think my, my, my interesting view on that would be, I'm not sure the benchmark progress is what determines enterprise adoption. And what I mean by that is, if you take the fact that the models have improved exponentially over the last couple years, and you say consumer adoption has been massive, right? Like KBMG had this report that 60% of consumers use this on a, on a weekly basis, the adoption curve on enterprise is not going to be a question of generalizability, it's gonna be a question of hyper-specific performance on a specific task, right? And so there isn't actually a benchmark for that. Like if I, you know, let's take a investment summary document for a private equity firm, right? There's no benchmark to say, firm one, This is how you write investment investment committee memos.
+
+2 (43m 40s):
+Does this generate something that looks with 99% precision, like something you would would roll out. There's no benchmark to do that. And so that's where what I see as the adoption curve is actually the fine tuning and inference layer of actually testing that, getting into a place where that firm could say like, this looks good. I'm okay with this. I've, you've tested it. Like machine learning has a context, I dunno if you've heard the, the banks do this thing called model risk management, where they actually do a whole host of validation and testing on things like redlining before they roll a model out. That's what the enterprise is gonna have to do. And so it's not that the model improvement doesn't matter, I actually think the, the benchmarks are a good way to get some sense of model improvement, but it, they're almost orthogonal to enterprise uptake.
+
+2 (44m 23s):
+I think an enterprise uptake depends on trust and precision on specific tasks at 99% accuracy, not generalizability.
+
+0 (44m 30s):
+If those specific tasks are removed in the way that you said like summary docs for investments, often it's done by more junior people in the earlier stages of their career when they are building and kind of scaling those skills. Do you think we will have a talent pipeline problem if we do remove a lot of those junior roles, which we are seeing in certain cases already. And I think we'll continue to see where we won't actually have the graduation pathways that lead to the leaders that we have today because we've removed those junior roles.
+
+2 (44m 56s):
+I don't actually, so, So I think one of the challenges is that the adoption curve of this stuff's gonna take a lot longer than people expect. So I do think, you know, I said this to you earlier, like I think enterprise, This is a five to 10 year adoption journey, not one to two. And So I think you have a, a dynamic where people will have a lot of time to react and to think about what's useful as you know, in addition to that. And So I actually find a lot of the people coming out of college right now are some of the highest adopters of this and the most useful for these kind of tools. And so we're hiring more and more people of that profile, not less, but I think the, the usage curve of that group of people, certain tasks will not be done but there will be many more. So I'll give you an example. Accounting, if you worked at a bank example or any accounting firm in the 1980s, This is absurd to think about, but you literally calculated revenue and financial statements with a slide rule.
+
+2 (45m 45s):
+Like people literally would sit there and they would generate a financial statement manually on paper with slide rule and that was how people did accounting. Now Excel comes around, that becomes the main tool everyone uses to do accounting. And so in theory you'd have less accountants because you went from manual generation of slide rules to Excel, which actually makes it way easier to do that. You look today we have about the exact same number of accounts and back the same number of junior accounts. And what's happened is people do way more sophisticated accounting scenarios with the tools they have. It's this old idea of Jevons paradox, which is you increase consumption with advanced technology. And so the number of accounts that go down, you actually had way more accounting. In fact every fp a function's probably larger now than it was 25 years ago because the work people do is more sophisticated.
+
+0 (46m 28s):
+I do want to go back to, we said about kind of market composition. Yeah. And how we see the different players. Is this a market where you said like Uber and Lyft, Is this a market where there's one and two players and they take the dominant market share and then there's everyone else? Is it a cloud market where it's much more evenly distributed? How do you project that out in say, a 10 year horizon
+
+2 (46m 48s):
+In both AI training and in enterprise? I don't think the answer is one player. You know, I think actually interestingly in the enterprise historically there's probably, and it's been Palantir, not many others. So that's kind of, I think why you've seen more people want alternative options to that. I think that, I think that's part of the reason you've seen so much excitement on enterprise AI recently. I think most of these markets end up with three, four or five players. I don't actually think it's even two. And I think the choice in consumers is markets tend to create that and that's a good thing, right? Like I think you'll have some specialization on certain topics, you know, maybe some better at coding, some better, better at specialist tasks, some better at PhDs. But I think it'll, it'll stay with a fair amount of choice.
+
+0 (47m 23s):
+When you look at the landscape, who do you most respect and what do you learn from them?
+
+2 (47m 27s):
+I would say Palantir is the company I probably respect the most in enterprise ai. It's
+
+0 (47m 31s):
+Really interesting. You see them as a competitor more than a surgeon or Mac or a chair, any of the others.
+
+2 (47m 36s):
+I think they're both competitors in different ways to different parts. All of those players are competitors in different ways, different parts of our business. I think I call out Palantir 'cause I think they realized 10 years before the rest of the kind of tech market that for deployed engineering customization would be important. And I think that was a very counter-cultural leap at the time. You know, and I, because I look, I mean I spent a lot of time running for deployed engineering teams and most of what I saw was players like Accenture, what was called tech services back then was not a place that anyone wanted to play in. And so Palantir spent a decade before anyone realized This is important, building good tech, right? And So I have a ton of respect for that and the, the culture they built outta that. I think on the AI training side, I won't comment anyone specific I think, I think all the players in the space are good and they all do different things.
+
+2 (48m 21s):
+Well there are
+
+0 (48m 22s):
+Large revenue numbers thrown out. Yeah. Are they revenue? Because I've done shows before with them and I got battered bluntly where people are like, oh it's not revenue Harry. And you can't categorize it as revenue. Is it GMV not revenue? Are we playing fast and loose with the truth on revenue versus kind of bookings?
+
+2 (48m 40s):
+I think it is revenue. I think that the rate you get on every project is different. The margin you make on every project is different. So I do think it is revenue and I think that the,
+
+0 (48m 49s):
+Can you help me understand? Sorry. And I'm very naive if I'm acquiring amazing talent and I get paid for that and then I have to pay them and then I get my take at the end of that. How is that different than booking on Airbnb where I get my take from a location but I have to pay out to the owner?
+
+2 (49m 7s):
+Oh, good question. Well I think Airbnb has one consistent fee. That's the difference. There's actually a fair amount of variation based on the skill side of the expert. Like you don't have a consistent rate relative to the booking amount. That's the biggest difference. So there's huge variety depending on the project, the expertise type, the expert type of what you book on that.
+
+0 (49m 25s):
+Are there any other big misnomers that you think are pronounced in the industry where you consistently are like, I wish people would change the way they think about it?
+
+2 (49m 33s):
+Look, I, I think the biggest one is just the view that when I first started this job, the main pushback I always got was that synthetic data will take over and you just will not need human feedback two, three years from now. And I, I, it's interesting, I don't from first principles, that actually doesn't make very much sense if you think through it, right? If you think about the diversity of tasks that exist in the world and then how long it would take you to get comfortable with the accuracy, it doesn't make any sense, right? Like I'll take legal services 'cause it's a really interesting one, right? A lot of the legal data in the world exists with big law firms. It doesn't even exist in the public. So if you take like the corpus of publicly available information that's been commoditized for years at this point, right? And so most of the logic is incredibly contextual to language culture, multimodal context and the information stored in individual companies as an example.
+
+2 (50m 20s):
+And so the only way to actually do the fine tuning process consistently and to get it accurate for any specific context is RHF. And I actually think in my, in my decade, in my McKinsey days and McKinsey go on black days, that was the thing I realized was different about traditional ML models versus genis In machine learning, you can back test, you can get to a really clearly statistically validated outcome without any human intervention. I think on the gen AI side, you are gonna need humans to loop for decades to come. And I think that is something that most people are starting to realize. I think it's always confusing to people when they hear like, oh that's how models are, are trained on the backend. I didn't realize that's how the physical validation works. And So I think that's been an interesting evolution curve as people started to realize that you
+
+0 (51m 1s):
+Are profitable, right?
+
+2 (51m 3s):
+This year we have started to invest a lot more. So I think one of the big differences historically invisible had only raised 7 million of primary capital in its entire nine year journey. We initially announced a hundred VE year right now is 130 million. And so I'm investing very heavily in technology so we will not be profitable this year. Now
+
+0 (51m 18s):
+Can you just take me to that decision? 'cause this was gonna be my question is like that's a very clear decision to be profitable and profitability comes often at the extent of growth. Yeah. Naturally. Can you just take me to that decision making for you and how you thought about it?
+
+2 (51m 31s):
+Yeah, look, I mean to me it was a simple one, which is if you think about the dynamics of return on capital, you can either harvest capital or invest capital and your decision to invest depends on the growth you see as a result of that investment. And I think we're in the greatest environment for growth that has ever existed. And I think Invisible is really uniquely positioned to capitalize on that growth too. And So I think of our five core platforms, I think of the growth vectors across both AI training and enterprise. And there were just way too many different things I thought were interesting to invest in. It was the clear best use of capital. And I look, I'm trying to build this for the next 10 to 20 years and I think if you want to build enterprise value for 10 to 20 years, now is the time to invest and build. And I, I hope we never get to the harvest stage, but I I definitely not.
+
+2 (52m 14s):
+Now where
+
+0 (52m 14s):
+Are you not investing that you want to be investing?
+
+2 (52m 18s):
+I, I think the simplest answer is actual physical world interactions. So what I mean by that is I think a lot of the most interesting data that we don't even really have access to yet is, is things that exist in the physical world that are more complicated to acquire and organize. So I'll give you an example. We we're serving one of the largest agricultural conglomerates in the US on herd safety. So actually like monitoring risk factors, when should you send a vet for their herd of, of cows? Basically that whole process relies us on us actually sending four Deployed Engineers to farms, dropping Starling terminals into those farms and building out custom computer vision models in those contexts. And I think there are so many different physical world contexts that become really, really interesting.
+
+2 (52m 58s):
+But it does take cost and capital to build those out. Like you know, I think oil and gas oil rigs are an interesting one as an example. And So I think physical world interaction patterns are some of the most interesting growth vectors for this. But they do take time and money to invest in robotics being another big part of that.
+
+0 (53m 14s):
+One area of investment that I think is interesting is brand. How do you think about Invisibles brand today?
+
+2 (53m 19s):
+Well it's interesting when I took over we had had, if you looked at the entire public internet, I think there was one article available and So I, we've definitely spent a lot more time this year thinking about was
+
+0 (53m 29s):
+That a deliberate decision?
+
+2 (53m 31s):
+I think so to some degree I think Invisible has a culture of, you know, we believe in doing great work for customers and we were kind of not really focused on telling the whole world about that. Does
+
+0 (53m 39s):
+That become detrimental to the business at some point though? Yeah, look,
+
+2 (53m 42s):
+I do think branding matters a lot. My view now is that it's been very helpful for us to spend time where I spend a lot, I spend about 70% of my time on the road and I, you know, go to a lot of conferences, things like that. And I think building a brand is really important for trust, for awareness, for engagement. And so, and I think also how you tell that story is really important. So I, I'm very much a believer, one of my favorite quotes like Mark Andreessen has this idea that when private and public narratives diverge, that is the risk or the opportunity. So meaning if you say things you don't believe to be true or if everyone's saying things that don't, don't believe true, then what is the actual private narrative? So I think it's been very important to me, to me. Sorry,
+
+0 (54m 19s):
+Can you just help me understand that? Yeah,
+
+2 (54m 21s):
+So hypothetically if I was going around saying we have an outta the box agent that does everything and then that wasn't actually true. That's what either creates opportunity for others or risk for us. That's how I think about it. And So I think what's been very important for me and how
+
+0 (54m 33s):
+Is that not our industry, I'm sorry. I mean like I I I don't mean to pick a fight with Mark Andreessen, but like hello Mark. Like our job is to sell and then deliver later. Like I'm looking at thinking well I'm fucked.
+
+2 (54m 47s):
+Well you know, I guess it's all a question of degrees and I think in my mind, like I wanna say things where the narratives are the same to the public and to what our team thinks and what our customers experience. And So I think that's part of why I have focused on saying some of the nuances of what's not working and not claiming everything works outta the box. And I think that is, that is a different approach but it's been a core to how we've thought about building the brand is we are building this around trust where like I want a company we work with to know that if I say this will work, it will work. And I I think you only get one chance to do that, right? You agree
+
+0 (55m 15s):
+With fake it till you make it.
+
+2 (55m 17s):
+That's such an interesting question. I think it depends on what faking it means, right? And and and what I, one of the things I think is really complicated about gen AI is, is non-deterministic, right? So like if you've never built a machine learning model to do pricing in industrial manufacturing, you can still understand what data's available, understand how the price is being set today and get pretty comfortable that what you build, if you say you will build it will work. And I think that is okay. I think the challenge of non-deterministic systems is there is more risk to faking it until you make it. Meaning if you, you can kind of go out and say your agent will do anything, then you actually have to deliver an agent that works, right? And I think that's part of the, the interesting you're asking about accounting dynamics and I think it's part of the interesting dynamic of like a lot of the contracts that that people will sign right now are like, I'll sign for 50 agents to be delivered.
+
+2 (56m 4s):
+But then the question is do you deliver the agents? Do they work? And So I think that is a different thing than SaaS to go, to go back to your earlier question, if I deliver a SaaS box, I know it will work If I deliver an agent in the current world, there was actually a report AWS came out with today. It's interesting like 70% of agents are actually not even AI agents as you think about like most of the agent agentic processes today are actually traditional script writing and just traditional automation. Right? And and I think that's why I don't self-identify as an agent company actually at all. Like I think we do AI agents, we do AI workflows are a core part of what we do, but we do data, we do training and fine tuning and agents are one tool in the toolkit because I think too much emphasis on them a lot of the time won't work.
+
+0 (56m 46s):
+Did you see the video of the robot going around the house recently? And it was like the worst thing ever. It was like 11 minutes to take out a GLO and then at the end it was like, and this was controlled by Simon in the back room and you're like the shittiest robot ever was then controlled by some weird dude in your back bedroom. Like This is so shit.
+
+2 (57m 5s):
+I, I do think that is, yeah, I did see that. And look, I think robotics is another one that will take longer but will be really interesting when it works. But by the way, I think even in that case you'll need more tasks specific robotics, not just broad based. Have
+
+0 (57m 16s):
+You ever faked till you make it and being caught out and did you learn anything from it?
+
+2 (57m 21s):
+So when I first started working and it wasn't even called AI back then, it was kind of data analytics is what it was actually called. This is probably 12 years ago or 13 years ago now. 12, probably 12 years ago. And I, you know, I I I think the firm gave me a pretty interesting purview to try and explore where I could build out AI offerings across different sectors and customer bases. And I don't think I knew what I was gonna build candidly. I think that the interesting dynamic is I, I had a lot of conviction that, and partly 'cause some of the things I've done before, that AI could be really useful on a whole host of things from inventory forecasting to pricing to credit underwriting. If you just thought intuitively of like the sources of data, the fact that so 70% of the software in America is over 20 years old, most of that data is massively fragmented, not clean.
+
+2 (58m 4s):
+And so a lot of the decisioning that happens in the enterprise is done in a really fragmented way. And This is what I did know, I did know that like if you took your average sales rep making a call, most of the time they're like googling some stuff to try and figure out what information, not now, but this was 12 years ago, they had very little information on the script to say customer information, what they might sell. So I had a lot of conviction that that would work. I did not know what would be most interesting. In fact there were areas I thought would be really interesting like banking that we're actually much harder to do this inconsistently. It it was somewhat, you mentioned earlier like bank, so, so the average bank spends 93% of its cost of its tech cost on maintain initiatives.
+
+2 (58m 44s):
+7% go into building new things.
+
+0 (58m 46s):
+This Is my favorite thing with people that I, I just had one of the CEOs of big vibe coding platform on and he was like, if SAS is Deborah, we're gonna build our own I heard
+
+2 (58m 54s):
+Product.
+
+0 (58m 55s):
+Yeah, yeah. I'm just like maintaining provisioning, updating. Are you PI if
+
+2 (59m 0s):
+Yeah, if you've never gone through InfoSec and approvals of the bank, like the banks are banks and look for very good reason. Banks are much more complicated to do a build like that in right. And So I, I think what was
+
+0 (59m 10s):
+I, this, this event that I was at last week was a bank, they have six and a half thousand people in KYC alone, six and a half thousand people.
+
+2 (59m 17s):
+It, it's a great example. And So I think when I was doing that in the early days, partly because there was very little media coverage or interest in it, I was kind of figuring stuff out from first principles. And So I think the degree to which I faked it and I make it was I had to figure out other people I worked with and customers that trusted me enough to allow me to co iterate and develop stuff with them. I had to figure out a way to recruit really good people. That was actually like, I actually think if you take any business very simplistically, it's a question of can you build trust with customers and co iterate to develop and and make things work? And then can you recruit unbelievable people to deliver that? And and it actually really comes down to recruiting in a lot of ways. I think that that's actually the number one thing we focus on. I think of us as a talent company as much as anything else. Like you could, you could argue that like, not to use a sports analogy, but like Nick Saban did not build Alabama football with the process.
+
+2 (1h 0m 3s):
+He built it with recruiting the best football players in the country. And I think about that the same way as like you have to recruit great people. So in some degree in the early days of that, you know, 10, 12 years ago I was setting a vision and trying to figure stuff out and actually iterating a lot of stuff. And I do think we ended up building a lot of things that really worked. But it took time and it took iteration as much as anything else. It took iteration and trust. So I would say the counterintuitive thing is I didn't fake it and then I never told people it would definitely work. I would actually, my entire approach would be to say I think this would work, This is my reasoning why I think it would work and let's build this and that actually a lot of people were very comfortable with that. I think if you go in and say I have an outta the box AI that solves all your problems, people are pretty skeptical.
+
+0 (1h 0m 43s):
+I do just wanna stay on recruiting 'cause again, I, I always, again I think it shows successful 'cause you put on the hand and you're like as a startup, CEO one of your biggest jobs is to recruit great people. Yeah. Having recruited people across different companies now both you know McKinsey and now obviously invisible, what would you advise startup CEOs in the earlier stages knowing all you know now and what it takes to be great at recruiting, acquiring and retaining great talent? Yeah,
+
+2 (1h 1m 7s):
+It's probably the topic I spend an enormous amount of time focused on that it's probably a topic I think about the most. 'cause I actually do think if you get amazing people everything else will follow from that. So you
+
+0 (1h 1m 16s):
+Agree with the moniker of like hire great people and let them do that work 'cause people have kind of pushed back on that now?
+
+2 (1h 1m 21s):
+Yeah, I think, I think not just hire, hire, retain and evolve great people. 'cause I actually think you have to give them a platform that they enjoy day-to-day. I think the two things that I believe that somewhat counterintuitive is when you recruit a great person, I don't think about role most of the time. Meaning I think people are very role focused of like, I will hire this person and they will only do oil and gas as an example, right? But the reality is like really good people will, will run five to six different roles across your, they'll they'll run seven to eight different products. Particularly on the business side. You may have somebody that does everything from delivery to sales to account lead and you can be comfortable with that if you hire great all around athletes in a lot of ways. And I think the second thing is it has to be fun.
+
+2 (1h 2m 3s):
+My view on one of the narratives that has gotten a bit lost in the last couple years is if you have a culture that is brutal to work at, people will leave. They might stay around as long as your stock's high but they're not gonna stay. And I think it, you have to create an environment where people really enjoy going to work every day where they're intellectually challenged and where they feel like they can unleash creativity. And So I think that's, I spend a ton of time thinking about that.
+
+0 (1h 2m 25s):
+Can you just, I I don't want to argue back. Yeah but I, yeah I want to build great companies myself. Yep. I'm trying to with 20 VC and I, I try to build good cultures. Revolut is a brutal culture to work at. Famous for it. But Nick has famously always told me culture's fucking bullshit winning's what matters when people win they learn more, they earn more and they grow. Yeah. And that really is culture brutality in bounds drives humans. Is that wrong?
+
+2 (1h 2m 53s):
+No, no I think it's actually right. And let, let me caveat what I said is I think it's also the nature of the business. I am I'm in being AI meaning I actually think that's a very true statement. If what you're trying to do is scale a relatively consistent business model to do one or two things, then that is a function of execution and hiring people to go in very specific roles and do very specific things. Well and I actually, sorry let me caveat my prior comments on that. I think the difference is a lot of what we do is research and exploration fundamentally, right? And so in the AI world it is a different dynamic in that you're trying to figure out very specific problems with customers to solve and build really unique tech. And So I think in that world you do have a different cultural dynamic.
+
+2 (1h 3m 34s):
+It it is a research culture as much as it is an implementation culture.
+
+0 (1h 3m 37s):
+Is that difficult then when, you know, I, I just, we we do a show every Thursday which is blown up, which is incredibly nice for us as a business. But it essentially we have Jason Lemkin and Morro Driscoll, two VCs and we talk about news and we talked about Sam Altman and war mode. Can you do a war mode then in the culture of research and AI where it's maybe more thoughtful? Does that work?
+
+2 (1h 3m 58s):
+Yeah, there are definitely parts of our, like I think if you take our delivery and operations teams, they're in war mode quite a bit at the time. So, So I think again I I'm more describing general I think countercultural beliefs I have on how to hire certain sets of great people. I don't think it applies to every single function of the company. I would agree with that. I think there are definitely, you have to be able to push really hard to deliver certain outputs and I think we do a great job of that. But I also think, you know, there, there have been ideas of like every great engineer should be able to spend 30% of their time on new projects as well as sprinting on the existing ones. I think it's paradigms like that that are important.
+
+0 (1h 4m 29s):
+What decision are you scared to make but you think about it often?
+
+2 (1h 4m 34s):
+Yeah, I think the simplest answer I'd have to that is that growth in this industry relates to the amount of capital you raise and you know your earlier question on investment, I do think there's a world in which if you pursue hyperscale growth it is possible but you have to invest a lot more to do that. Like every new company, every new customer you onboard, you have it does cost money to do the Ford deployed engineering work. You invest more in your tech. And so there is an interesting like do you run a business for consistent steady growth for 20 years or do you try and build something that gets to 50 to a hundred billion dollars and becomes game changing? And we have very much tried to operate in a way where I think we have a path to profitability and everything else but we are going to invest in the near term.
+
+2 (1h 5m 14s):
+'cause I think it is, it is a very interesting time to do
+
+0 (1h 5m 16s):
+That. I know you don't like to name names but I can 'cause you like when Macco raises like $2 billion and you are like fuck we need to raise more fucking money.
+
+2 (1h 5m 25s):
+It's interesting if you look at the players in our space that there have been very different levels of capital raised and people had success more and less. I actually think a lot of our investment is in different areas than many of our peer set AI training are focused on. A lot of it's in things like the enterprise, it's in core software platforms that are maybe a little bit different than what other focused on. So I think you can raise a lot of money and the question is where you spend it again, I actually think most of the capital we need in the next five years is more enterprise focused. I think we've actually built something on the IT side. I feel very, very good about,
+
+0 (1h 5m 54s):
+We were talking about recruiting before I went off on a tangent. Now you now have offices despite being a remote company for several years. Does remote not work?
+
+2 (1h 6m 5s):
+Yeah, so we were a fully remote company for nine years until I took over. We've now of, we've now gotten largely in person and we do have, we do have some folks remote work remote but we now have offices in New York. We took the old Pinterest space in San Francisco, London, Paris, Poland, DC and just opening Austin, Texas now. And I think the interesting thing I've experienced with that is I do think remote you really struggle to build culture in the same way. So I think that the things I've experienced since we were remote is just a way stronger positive culture of co-location. Which I think people enjoy their work and get to know their coworkers a lot better as a result of it. I think it gives us a lot more depth with customers to be co-located in cities where we spend time with them.
+
+2 (1h 6m 45s):
+I mean like if I take London and Paris we need to be co-located with the customers there. It can't just be, you know, someone in a a zoom screen in New York. Do you
+
+0 (1h 6m 52s):
+See productivity increase
+
+2 (1h 6m 53s):
+Exponentially? Yes. I think if you take engineering as an example, like I think you can execute engineering tasks remotely but the process of working through really thorny problems like we, so I've tripled the size of the engineering team and what I can tell you is the interesting thing is vast majority of these people wanted to be in person. Now I'm not saying that's true of all engineers but is it was interesting how many people particularly at the younger tenures were like, I wanna be co-located, I wanna work through things. And So I don't even mandate office attendance, I just have it in those offices And we have huge appetite. Like I was with our, we have 40 people in our London office, I was with many of them last night and they were all commenting on how many of them come in voluntarily even on a like a Friday where they might not need to because they like being around their peers.
+
+2 (1h 7m 34s):
+I think that I would actually bifurcate two separate things and I don't think they're related. One is the hours you work seven days a week very flexibly depending on client needs exist from physical co-location. I actually don't think they're related meaning I think the benefit of integration is if stuff comes up on a Saturday or you're pushing on a new product bill, like you will work on that Saturday. But if you do that from your your home, that's totally fine. I think office culture to me is like if you took a hypothetical thought experiment and you said over a year, I think there is a diminishing return from being in the office all the time where you lose flexibility. So as an example, if if I said we were physically we're remote a hundred percent of the time, that would not work at all If I said we were physically in the office six days a week.
+
+2 (1h 8m 18s):
+I, I think that is overkill. You lose great people, particularly senior enterprise folks don't wanna be in the office on Saturdays. But what I think we found a nice balance between is people come to the office most days, people really enjoy being with their colleagues, they work most days but they can do it from their own home on the weekends and I think that sort of flexibility is good. Final
+
+0 (1h 8m 37s):
+One before you do a quick fire, what did you believe about management that you now no longer believe?
+
+2 (1h 8m 42s):
+I, I think two things I would highlight. One is that I think control of is a bit of a fallacy depending on the volume thing of things you have going on. Meaning I actually think the question earlier on hiring great people, if you're serving several, you know, let's say a couple years from now you're serving a couple hundred customers on different topics, you actually need to have values, consistent tooling, consistent approaches. But you need to empower all those teams at the edge to operate and do what they will. And so actually one of the focuses I've made over the course of the year is to reduce a lot of our hierarchy, make the organization way more flat so that companies that people at the edge serving customers are empowered to make decisions, they have decision making frameworks, they have consistent tooling but they are empowered.
+
+2 (1h 9m 24s):
+I think trying to control that centrally maybe works in like a manufacturing business but you, you lose a lot of latency of decision making. So you know, I think if you look at like there's a lot of interestingly military history that would say the same thing. That is like actually if you look at the function of an army at some point it moves into people in the field make the decisions and so you have to have the training, the strategy of recruiting to do that. And then you have to empower your teams to work. And I think I think about a lot of that very similarly. And the second thing I think a lot about is in the AI world at least strategy is a somewhat overrated concept. And what I mean by that is I I think actually all strategy, I was talking to A-A-C-E-O in the biotech space and he was saying that strategy is very important for them.
+
+2 (1h 10m 4s):
+'cause every time they make a capital decision it's a seven year capital cycle, right? And, and so in that case strategy makes a lot of sense. But in the AI world, one thing that's been interesting to me is every three months the entire world changes and I, I've just had to get very comfortable with that dynamic. You have to think about your investment lifecycle as core beliefs you have and then 30 to 40% of things that you iterate constantly based on new tech. So there is tech that you're gonna build like a new voice agent comes out that will become obsolete and you have to just be very comfortable that you're building an interoperable set of frameworks that you can integrate the new tech into. And that has to be a core function of the business is five year strategic planning is not a useful exercise right now in a lot of ways I think you want to think about five years in terms of the cultural context.
+
+2 (1h 10m 46s):
+You build the organizational, like the institutional memory to use the seven powers framework, but the actual iteration cycles are much, much faster. And I think if you don't react quickly that that does not sustain. And now I think enterprise, the interesting flip side of that is enterprise sales cycles for example are much longer. So it is not like you can't survive unless you're making decisions. But, but I do think the big thing is a lot of the tech being developed changes every two to three months. And so you need to be constantly incorporating that into what you, you build.
+
+0 (1h 11m 14s):
+Final, final, final one, I promise for a quick fire. You said about always being traveling and you mentioned a girlfriend earlier. How do you make that work and what would you advise me as like, hey tips and tricks to not have a severely pissed off girlfriend most of the time I
+
+2 (1h 11m 28s):
+Think the first thing is to find a great girl who understands that you are really passionate about you're doing and, and is is supportive of that. I think my girlfriend Claudia has been, has been great on that front. I am very appreciative of that. But look, I mean it, it's tough. I'm on the road probably 60% of the time I've, you know, if you look at my last four, five weeks, Riyadh, Geneva, Paris, Berlin, London, San Francisco, Boston, Singapore, now London again. So I mean that, that's a Do you
+
+0 (1h 11m 53s):
+Enjoy this?
+
+2 (1h 11m 55s):
+I do in some ways I think that I feel very lucky to be building something at this particular time and with a group of people I love working with. You know, this happens to be what I spent my last decade doing and it happens to suddenly now people with like what a lot of people wanna do, which is great. And So I feel very lucky because of that. And so every day I wake up and see what else can I do to be, to kind of push that forward. And So I do kind of live on the road but look, I think you, I think some of the things I've tried is like, you know, you figure out things like FaceTime, you make sure you keep the cadence interaction high because being on the road is tough, but I also don't think it's forever. I also think I'm in that fun stage of trying to take something to like we kind of went zero to one and now we're trying to go one to end, but we're not yet, you know, fully mature public company or anything like that.
+
+2 (1h 12m 35s):
+And So I think she's been very understanding throughout that process. Are
+
+0 (1h 12m 38s):
+You ready for a quick fire round? Yeah. Okay. Open AI at 500 billion or anthropic at 360 billion. Which would you rather invest in?
+
+2 (1h 12m 47s):
+I do not comment on any, any players in the model builder space for a variety of reasons.
+
+3 (1h 12m 54s):
+You can see why it's the discomfort
+
+0 (1h 12m 55s):
+Round. What's the most underrated infra company today?
+
+2 (1h 12m 59s):
+Databricks. Which is you're gonna be like, well they're very rated but look, I think their tech is great and, and I think that it's interesting in a lot of ways the most useful foundation for AI is really good Databricks Databricks infrastructure. I think when I hear a customer has them, I'm always very happy.
+
+0 (1h 13m 13s):
+What's the best advice that you've been given that you most frequently go back to?
+
+2 (1h 13m 18s):
+We kind of talked about this a little earlier, but CEO that I respect a lot when I, when I took the role, I asked him his advice as they're like, what's the best way to think about a team? And he said, look, your job as a CEO is to do three things really well, recruit great people, create a culture where they love working together and build great things and try and make them all extremely rich. And I think it's a funny framework but I think an interesting way to think about like that is my responsibility to employees. I want them, I wanna find great people, help 'em enjoy each other and then build something that becomes big and help solve them, achieve their dreams.
+
+0 (1h 13m 50s):
+What's one widely held belief about AI that you think is completely wrong? That
+
+2 (1h 13m 54s):
+Out of the box agents will solve everything with a push of button that is, I think the biggest misconception now is that I think many people were hoping the adoption curve will be I buy something and I just push into my business and it takes a whole process and fixes it. And I think they're realizing it requires training, fine tuning and a whole host of process redesign and business ownership.
+
+0 (1h 14m 12s):
+You are me today, you have a new $400 million fund and you're a partner in the fund with me. Where should we be investing where most people are not because everyone is investing in agents outta the box.
+
+2 (1h 14m 22s):
+Well yeah, look, you know, I I I think it's an interesting question because I think a lot of the reason people are investing in the agents outta the box is that they're trying to apply a SaaS paradigm of what's worked historically to ai, which is challenging. The model building layer is clearly producing amazing returns. I think the AI agent layer is more complicated. Now, where I think that's also complicated is the application layer is tricky too. And I think you hear a lot of commentary on this, like many of the applications may or may not work, they're not really getting full workflow embedding, they're more of like kind of nice to have in workflow context. So actually my counterintuitive take would be one interesting question of the par of the paradigm now is whether new companies built around AI get distribution faster than big companies figure out how to adopt ai.
+
+2 (1h 15m 7s):
+I think that's like the interesting paradigm for our society. And So I think some of the most interesting new businesses are actual businesses using AI in the physical world that are AI native and that will be highly disruptive. So you mentioned Revolut and banking for example, or you could go into like loan servicing. There's many different areas where people are standing up new businesses. One of the most interesting stats I've heard recently is if you look at Y Combinators recent class, I think it's like the largest, it is two x the revenue of any prior class. And many of those are businesses that are actually serving a customer need, not selling that customer software, if that makes sense. And So I think from an adoption standpoint, one way to do This is to bet on AI agents, which are more of like a SAS paradigm who will sell stuff to customers.
+
+2 (1h 15m 50s):
+And the other way to think about it's what are business models that will change because of this? And I think there's a whole list of like, you know, gen AI native services businesses are very like, you know, tax accounts, et cetera are really interesting examples of that.
+
+0 (1h 16m 2s):
+Again, you you're, you're a partner with me in the fund. Yeah. Do we just get used to a world of lower margins? Is that, is that how this business plays out? Is the world of 70, 80% software margins over,
+
+2 (1h 16m 12s):
+First of all challenge that 70, 80% software margins actually ever existed. What I mean by that is there's the gross margin, but if you look at like profitability and public software multiples, it's fascinating, right? Like in the last two years you've seen public software multiples go from 20 x to 10 x partly 'cause of growth changes and partly because they've tried as they move profitable, their growth slows materially. And what you realize is like, I I actually would take the flip side of this, which is the integrated units will be very, very profitable because the way they grow, they'll be able to acquire customers faster, build them things that are good faster. And so they won't have the box stickiness, but they'll also, I I would argue a lot of those software companies below the line were not that profitable
+
+0 (1h 16m 50s):
+When you look forward to the next 10 years. Final one, what are you most excited about? Like, you know, for me, my mother's got ms, I look at potential advancements in our mass drug discovery treatment pathways. What are you most excited for? I like to end on a tone of optimism.
+
+2 (1h 17m 4s):
+Yeah. You know, I think despite some of my, what I call realism on, on enterprise adoption, I actually am an AI optimist and I actually think that the current narrative on some of the risks are far outweighed by some of the benefits. And like, just to give a couple examples, right? And I'll go through four, including healthcare. If you take energy as an example, right? There's a lot of question around like data center implications for, for energy, but you do the math right now data centers are about 1% of total global electricity usage. AI data centers are 0.25 to 0.5% of that. So actually really small, I don't even realize cooling electricity, air conditioners is 14 to 20% of global electricity usage. AI has so many different ways with grid optimization cooling where, I mean the world economic form just came out and said This is, it's gonna be massively net po net positive from a environmental impact standpoint.
+
+2 (1h 17m 49s):
+So I think energy's one where if you think about all the energy needs we're gonna have and the investment now going into clean energy because of all this, I think we'll actually be in a much better place 10 years from now. I think healthcare is another interesting one. If you look at US healthcare, we spend 14,000 per capita per year on patients in the US So that, that's like a rough spend. That's two and a half to three x. But like Germany and Canada spend as an example, if you then break down the context of that, you know, 9% of that roughly is, is administrative something like 25% of its waste. And then actual cost of care is like really challenging. I mean, Johns Hopkins is released a stat that 250,000 deaths a year happen because of avoidable errors. You, you, you see things in ai like 20% better identification of breast cancer risk, for example.
+
+2 (1h 18m 32s):
+So I think actually healthcare is another one where the cost framework for healthcare has been not good over the last 20 years. And the cost of care improvements will be really material if AI works well. So I think that's another one. I think the, the one I'm probably most excited about is education. If you're a kid growing up in any socioeconomic disadvantaged city in, in the world, your ability to learn about any topic on earth incredibly quickly is better now than it will has ever been in any point in history. You can take any topic on earth and with just an internet connection learn, you can go through and you can pick your topic. And I think one of the reasons that's particularly important is educational system we've had for the last 10, 10, 15 years. Actually 50 years doesn't really work. I mean we have massive K through 12 challenges with STEM topics in the US for example, we have huge learning gaps largely even by sociodemographic context.
+
+2 (1h 19m 22s):
+And most of our educational system is based around like teach people biology, English, and history and like not teach them about basic things like FICO scores or how to do coding. And so, and to add to all of that, the college system has, has created the student debt crisis where people, way too many people are going to colleges that are not worth going to for and taking on enormous amounts of debt to do it. So I actually think, again, I think the way our educational system will shift, will function, will shift material. We're a talent assessment company. An enormous amount of people we bring in did not go to college and we assess them on cognitive aptitude and skill. And So I think the, the really positive note I would leave on is I think the way that people learn, the topics they learn, the way we look at resumes and how to screen and assess people will move in a really positive direction and I think a very different one than we've had for the last a hundred years.
+
+0 (1h 20m 8s):
+Absolutely thrilled to hear that there is value in non-college or dropouts as a dropout myself, this has been so much fun to do. Matt, thank you so much for being so flexible with the topic type. You've been fantastic dude.
+
+2 (1h 20m 19s):
+Thank you for having me.
+
+Superhuman (1h 20m 22s):
+But before we leave you today, are you drowning in AI tools chat GPT for writing, notion for docs, Gmail for email, slack for comms, and you are constantly copy pasting between them all losing context and losing time. This is the AI productivity tax and it's killing your output at 20 VC, we're all about speed of execution and Superhuman is the AI productivity suite that gives you superpowers everywhere you work. With the intelligence of Grammarly, male and coder built in, you can get things done faster and collaborate seamlessly. Finally, AI that works where you work however you work, Superhuman gets you from day one with zero learning curve and it's personalized to sound like you at your best, not like everyone else using generic ai. Get AI that works where you work, unlock your Superhuman potential. Learn more at Superhuman dot com slash podcast. That's Superhuman dot com slash podcast.
+
+AlphaSense  (1h 21m 23s):
+And speaking of tools that give you an edge, that's exactly what AlphaSense does for decision making. As an investor, I'm always on the lookout for tools that really transform how I work. Tools that don't just save time, but fundamentally change how I uncover insights. That's exactly what AlphaSense does with the acquisition of TAUs. AlphaSense is now the ultimate research platform built for professionals who need insights they can trust fast. I've used Tegu before for company deep dives right here on the podcast. It's been an incredible resource for expert insights. But now with AlphaSense leading the way, it combines those insights with premium content, top broker research and cutting edge generative ai. The result, A platform that works like a supercharged junior analyst delivering trusted insights and analysis on demand. AlphaSense has completely reimagined fundamental research helping you uncover opportunities from perspectives you didn't even know how they existed. It's faster, it's smarter, and it's built to give you the edge in every decision you make. To any VC listeners, don't miss your chance to try AlphaSense for free. Visit AlphaSense dot com slash two zero to unlock your trial. That's AlphaSense dot com slash two zero.
+
+Daily Body Coach (1h 22m 32s):
+And if AlphaSense helps you make smarter decisions daily Body Coach helps you build smarter habits. You know how so many founders and execs say they'll finally take care of their health once things slow down well they never do. Running a business is a marathon made of high intensity sprints. And taking care of yourself is what gets you through those times, performing at your best both professionally and personally. This is exactly where Daily Body Coach comes in. Daily Body Coach is a complete high-touch service for busy founders and executives. Combining personalized nutrition and training with psychology based coaching to help you not just follow a plan but actually build the systems, habits and mindset to stay at the top of your game. Built by an exited founder and led by certified experts with Masters and PhD level credentials, daily Body Coach is fully tailored to your life. Whether you are traveling, dining out, or in back-to-back meetings, you get daily accountability, data-driven insights from DEXA scans and blood work and a highly certified team backing you. If you are serious about performing at your best physically and mentally, go to daily Body coach.com/two zero VC. That's daily body coach.com/two zero VC and take the next step.
